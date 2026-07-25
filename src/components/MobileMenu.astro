@@ -165,46 +165,65 @@ const base = `/${lang}`;
   </div>
 </div>
 
-<script>
-  const drawer = document.getElementById('mobile-menu-drawer');
-  const backdrop = document.getElementById('mobile-menu-backdrop');
-  const panel = document.getElementById('mobile-menu-panel');
-  const closeBtn = document.getElementById('close-mobile-menu');
-  const openBtn = document.getElementById('open-mobile-menu');
-
-  function openMenu() {
-    if (!drawer || !backdrop || !panel) return;
-    drawer.classList.remove('invisible', 'pointer-events-none');
-    drawer.classList.add('opacity-100');
-    backdrop.classList.remove('opacity-0');
-    backdrop.classList.add('opacity-100');
-    panel.classList.remove('translate-x-full');
-    panel.classList.add('translate-x-0');
-    document.body.style.overflow = 'hidden';
-    closeBtn?.focus();
-  }
-
-  function closeMenu() {
-    if (!drawer || !backdrop || !panel) return;
-    panel.classList.remove('translate-x-0');
-    panel.classList.add('translate-x-full');
-    backdrop.classList.remove('opacity-100');
-    backdrop.classList.add('opacity-0');
-    setTimeout(() => {
-      drawer.classList.add('invisible', 'pointer-events-none', 'opacity-0');
-      drawer.classList.remove('opacity-100');
-      document.body.style.overflow = '';
-      openBtn?.focus();
-    }, 300);
-  }
-
-  openBtn?.addEventListener('click', openMenu);
-  closeBtn?.addEventListener('click', closeMenu);
-  backdrop?.addEventListener('click', closeMenu);
-
-  document.addEventListener('keydown', (e) => {
-    if (e.key === 'Escape' && drawer && !drawer.classList.contains('invisible')) {
-      closeMenu();
+<script is:inline>
+  (function() {
+    function getElements() {
+      return {
+        drawer: document.getElementById('mobile-menu-drawer'),
+        backdrop: document.getElementById('mobile-menu-backdrop'),
+        panel: document.getElementById('mobile-menu-panel')
+      };
     }
-  });
+
+    function openMobileMenu() {
+      var els = getElements();
+      if (!els.drawer || !els.backdrop || !els.panel) return;
+      els.drawer.classList.remove('invisible', 'pointer-events-none');
+      els.drawer.classList.add('opacity-100');
+      els.backdrop.classList.remove('opacity-0');
+      els.backdrop.classList.add('opacity-100');
+      els.panel.classList.remove('translate-x-full');
+      els.panel.classList.add('translate-x-0');
+      document.body.style.overflow = 'hidden';
+    }
+
+    function closeMobileMenu() {
+      var els = getElements();
+      if (!els.drawer || !els.backdrop || !els.panel) return;
+      els.panel.classList.remove('translate-x-0');
+      els.panel.classList.add('translate-x-full');
+      els.backdrop.classList.remove('opacity-100');
+      els.backdrop.classList.add('opacity-0');
+      setTimeout(function() {
+        els.drawer.classList.add('invisible', 'pointer-events-none', 'opacity-0');
+        els.drawer.classList.remove('opacity-100');
+        document.body.style.overflow = '';
+      }, 300);
+    }
+
+    document.addEventListener('click', function(e) {
+      var target = e.target;
+      if (!target) return;
+      
+      var openBtn = target.closest('#open-mobile-menu');
+      if (openBtn) {
+        e.preventDefault();
+        openMobileMenu();
+        return;
+      }
+
+      var closeBtn = target.closest('#close-mobile-menu') || target.closest('#mobile-menu-backdrop');
+      if (closeBtn) {
+        e.preventDefault();
+        closeMobileMenu();
+        return;
+      }
+    });
+
+    document.addEventListener('keydown', function(e) {
+      if (e.key === 'Escape') {
+        closeMobileMenu();
+      }
+    });
+  })();
 </script>

@@ -149,4 +149,36 @@ const base = `/${lang}`;
 
     </div>
   </div>
+
+  <!-- Mobile Quick Sub-Navigation Bar (Always visible on mobile screens < md) -->
+  <div class="md:hidden bg-neutral-900 border-t border-neutral-800 py-2 px-4">
+    <div class="max-w-7xl mx-auto flex items-center justify-start sm:justify-center space-x-2 overflow-x-auto no-scrollbar">
+      <a
+        href={`${base}/`}
+        class={`px-3.5 py-1 rounded-full text-xs font-bold whitespace-nowrap transition-all ${
+          currentPath === `${base}/` ? 'bg-orange-500 text-white shadow-xs' : 'text-neutral-300 hover:text-white bg-neutral-800/80'
+        }`}
+      >
+        {t.nav.home}
+      </a>
+
+      <a
+        href={lang === 'es' ? `${base}/acerca-de/` : `${base}/about/`}
+        class={`px-3.5 py-1 rounded-full text-xs font-bold whitespace-nowrap transition-all ${
+          currentPath.includes('about') || currentPath.includes('acerca') ? 'bg-orange-500 text-white shadow-xs' : 'text-neutral-300 hover:text-white bg-neutral-800/80'
+        }`}
+      >
+        {t.nav.about}
+      </a>
+
+      <a
+        href={lang === 'es' ? `${base}/divulgacion-afiliados/` : `${base}/affiliate-disclosure/`}
+        class={`px-3.5 py-1 rounded-full text-xs font-bold whitespace-nowrap transition-all ${
+          currentPath.includes('afiliad') || currentPath.includes('affiliate') ? 'bg-orange-500 text-white shadow-xs' : 'text-neutral-300 hover:text-white bg-neutral-800/80'
+        }`}
+      >
+        {t.nav.affiliateDisclosure}
+      </a>
+    </div>
+  </div>
 </header>

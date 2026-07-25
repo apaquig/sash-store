@@ -12,12 +12,18 @@ const baseUrl = import.meta.env.BASE_URL;
     <!-- Fallback redirect using base URL -->
     <meta http-equiv="refresh" content={`0;url=${baseUrl}es/`} />
 
-    <!-- Instant client-side browser language detection -->
+    <!-- Instant client-side browser language detection & saved preference -->
     <script is:inline define:vars={{ baseUrl }}>
       (function() {
         try {
-          var userLang = (navigator.language || navigator.userLanguage || '').toLowerCase();
           var prefix = baseUrl.endsWith('/') ? baseUrl : baseUrl + '/';
+          var savedLang = localStorage.getItem('preferred_lang');
+          if (savedLang === 'en' || savedLang === 'es') {
+            window.location.replace(prefix + savedLang + '/');
+            return;
+          }
+
+          var userLang = (navigator.language || navigator.userLanguage || '').toLowerCase();
           if (userLang.indexOf('es') === 0) {
             window.location.replace(prefix + 'es/');
           } else {

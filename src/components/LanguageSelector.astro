@@ -4,10 +4,11 @@ import productsData from '../data/products.json';
 
 interface Props {
   currentLang: Language;
-  currentPath: string;
+  currentPath?: string;
 }
 
-const { currentLang, currentPath } = Astro.props;
+const { currentLang } = Astro.props;
+const rawPath = Astro.props.currentPath || Astro.url.pathname || '/';
 
 function getAlternatePath(path: string, targetLang: 'es' | 'en'): string {
   const clean = path.endsWith('/') ? path : `${path}/`;
@@ -67,8 +68,8 @@ function getAlternatePath(path: string, targetLang: 'es' | 'en'): string {
   return `/${targetLang}/`;
 }
 
-const esPath = getAlternatePath(currentPath, 'es');
-const enPath = getAlternatePath(currentPath, 'en');
+const esPath = getAlternatePath(rawPath, 'es');
+const enPath = getAlternatePath(rawPath, 'en');
 ---
 
 <div class="relative inline-flex items-center">
@@ -79,12 +80,17 @@ const enPath = getAlternatePath(currentPath, 'en');
     </svg>
   </div>
 
-  <!-- Styled Combo Box Dropdown (<select>) -->
+  <!-- Styled Dropdown Select -->
   <select
-    id="lang-combobox-select"
-    class="appearance-none pl-8 pr-7 py-1.5 bg-neutral-100 hover:bg-neutral-200 border border-neutral-300 rounded-full text-xs font-bold text-neutral-900 cursor-pointer focus:outline-none focus:ring-2 focus:ring-neutral-950 transition-colors shadow-xs"
+    class="lang-selector-select appearance-none pl-8 pr-7 py-1.5 bg-neutral-100 hover:bg-neutral-200 border border-neutral-300 rounded-full text-xs font-bold text-neutral-900 cursor-pointer focus:outline-none focus:ring-2 focus:ring-neutral-950 transition-colors shadow-xs"
     aria-label="Seleccionar idioma / Select language"
-    onchange="if (this.value) window.location.href = this.value;"
+    onchange="
+      if (this.value) {
+        var targetLang = this.value.indexOf('/en/') !== -1 ? 'en' : 'es';
+        try { localStorage.setItem('preferred_lang', targetLang); } catch(e){}
+        window.location.href = this.value;
+      }
+    "
   >
     <option value={esPath} selected={currentLang === 'es'}>Español (ES)</option>
     <option value={enPath} selected={currentLang === 'en'}>English (EN)</option>

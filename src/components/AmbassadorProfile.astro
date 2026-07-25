@@ -1,5 +1,6 @@
 ---
 import type { Language } from '../utils/getTranslations';
+import { resolveImagePath } from '../utils/getImagePaths';
 
 interface Props {
   lang: Language;
@@ -50,6 +51,7 @@ const content = {
 };
 
 const current = content[lang] || content.en;
+const ambassadorImgSrc = resolveImagePath('/images/sasha-ambassador.jpg');
 ---
 
 <div class="relative overflow-hidden rounded-3xl bg-white text-neutral-900 p-6 sm:p-10 border border-neutral-200 shadow-soft">
@@ -66,7 +68,7 @@ const current = content[lang] || content.en;
         <!-- Image Container -->
         <div class="relative aspect-[9/14] w-full rounded-[2rem] overflow-hidden bg-neutral-100 border border-neutral-200 shadow-md">
           <img
-            src="/images/sasha-ambassador.jpg"
+            src={ambassadorImgSrc}
             alt="Sasha Steele - Official Brand Ambassador of Sasha Store"
             class="w-full h-full object-cover object-top transform transition-transform duration-700 group-hover:scale-105"
             loading="eager"

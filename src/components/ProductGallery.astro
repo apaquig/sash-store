@@ -1,6 +1,6 @@
 ---
 import type { Language } from '../utils/getTranslations';
-import { getImagePaths } from '../utils/getImagePaths';
+import { getImagePaths, resolveImagePath } from '../utils/getImagePaths';
 import NoImagePlaceholder from './NoImagePlaceholder.astro';
 
 interface Props {
@@ -16,14 +16,17 @@ const { imageNumber, imagePrimary, imageSecondary, imageAlt, lang } = Astro.prop
 const fallback = '/src/images/no-image.svg';
 const images = imageNumber ? getImagePaths(imageNumber) : { primary: '', secondary: '', fallback };
 
-const primarySrc = imagePrimary || images.primary || fallback;
-const secondarySrc = imageSecondary || images.secondary || primarySrc;
+const rawPrimarySrc = imagePrimary || images.primary || fallback;
+const rawSecondarySrc = imageSecondary || images.secondary || rawPrimarySrc;
+
+const primarySrc = resolveImagePath(rawPrimarySrc);
+const secondarySrc = resolveImagePath(rawSecondarySrc);
 
 const primaryAlt = imageAlt?.primary?.[lang] || 'Primary product image';
 const secondaryAlt = imageAlt?.secondary?.[lang] || 'Secondary product image';
 
-const hasPrimary = Boolean(primarySrc && primarySrc !== fallback);
-const hasSecondary = Boolean(secondarySrc && secondarySrc !== fallback);
+const hasPrimary = Boolean(rawPrimarySrc && rawPrimarySrc !== fallback);
+const hasSecondary = Boolean(rawSecondarySrc && rawSecondarySrc !== fallback);
 ---
 
 <div class="space-y-4" id="gallery-container">

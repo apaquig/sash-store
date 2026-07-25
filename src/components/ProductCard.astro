@@ -1,6 +1,6 @@
 ---
 import type { Language } from '../utils/getTranslations';
-import { getImagePaths } from '../utils/getImagePaths';
+import { getImagePaths, resolveImagePath } from '../utils/getImagePaths';
 import AffiliateButton from './AffiliateButton.astro';
 import NoImagePlaceholder from './NoImagePlaceholder.astro';
 
@@ -38,8 +38,9 @@ const altText = product.imageAlt?.primary?.[lang] || name;
 const productUrl = lang === 'es' ? `/es/producto/${product.slug.es}/` : `/en/product/${product.slug.en}/`;
 
 const images = product.imageNumber ? getImagePaths(product.imageNumber) : { primary: '', secondary: '', fallback: '/src/images/no-image.svg' };
-const primarySrc = product.imagePrimary || images.primary || '/src/images/no-image.svg';
-const hasImage = Boolean(primarySrc && primarySrc !== '/src/images/no-image.svg');
+const rawPrimarySrc = product.imagePrimary || images.primary || '/src/images/no-image.svg';
+const primarySrc = resolveImagePath(rawPrimarySrc);
+const hasImage = Boolean(rawPrimarySrc && rawPrimarySrc !== '/src/images/no-image.svg');
 const badgeText = product.badge?.[lang] || (lang === 'es' ? '#1 más vendido' : '#1 Best Seller');
 ---
 

@@ -10,6 +10,21 @@ export interface ProductImagePaths {
   fallback: string;
 }
 
+/**
+ * Resolves static public/assets image paths by prefixing import.meta.env.BASE_URL
+ * to prevent broken image URLs on subfolder hosts like GitHub Pages.
+ */
+export function resolveImagePath(src: string): string {
+  if (!src) return '';
+  if (src.startsWith('http://') || src.startsWith('https://')) return src;
+
+  const baseUrl = import.meta.env.BASE_URL || '/';
+  const cleanBase = baseUrl.endsWith('/') ? baseUrl : `${baseUrl}/`;
+  const cleanSrc = src.startsWith('/') ? src.slice(1) : src;
+
+  return `${cleanBase}${cleanSrc}`;
+}
+
 // Vite glob import for static verification of available images
 const globImages = import.meta.glob('/src/images/products/*.{webp,avif,png,jpg,jpeg,svg}', {
   eager: true,

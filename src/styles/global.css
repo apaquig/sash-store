@@ -12,6 +12,8 @@
     background-color: #ffffff;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    max-width: 100vw;
+    overflow-x: hidden;
   }
 
   body {
@@ -19,6 +21,8 @@
     display: flex;
     flex-direction: column;
     background-color: #ffffff;
+    max-width: 100vw;
+    overflow-x: hidden;
   }
 
   /* Accessible focus states */

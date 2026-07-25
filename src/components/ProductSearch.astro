@@ -34,10 +34,10 @@ const { lang, t, categories } = Astro.props;
   </div>
 
   <!-- Category Filter Pills -->
-  <div class="flex items-center justify-center flex-wrap gap-2 pt-1" id="category-pills-wrapper">
+  <div class="flex items-center justify-start sm:justify-center overflow-x-auto no-scrollbar flex-nowrap sm:flex-wrap gap-2 pt-1 pb-1.5 px-0.5" id="category-pills-wrapper">
     <button
       type="button"
-      class="cat-pill active px-4 py-2 rounded-full text-xs font-bold transition-all duration-200 border border-neutral-950 bg-neutral-950 text-white shadow-xs focus:outline-none"
+      class="cat-pill active flex-shrink-0 px-4 py-2 rounded-full text-xs font-bold transition-all duration-200 border border-neutral-950 bg-neutral-950 text-white shadow-xs focus:outline-none"
       data-cat="all"
     >
       {t.search.categoryAll}
@@ -45,7 +45,7 @@ const { lang, t, categories } = Astro.props;
     {categories.map((cat) => (
       <button
         type="button"
-        class="cat-pill px-4 py-2 rounded-full text-xs font-semibold transition-all duration-200 border border-neutral-200 bg-neutral-100 text-neutral-900 hover:bg-neutral-900 hover:text-white hover:border-neutral-900 focus:outline-none"
+        class="cat-pill flex-shrink-0 px-4 py-2 rounded-full text-xs font-semibold transition-all duration-200 border border-neutral-200 bg-neutral-100 text-neutral-900 hover:bg-neutral-900 hover:text-white hover:border-neutral-900 focus:outline-none"
         data-cat={cat.id}
       >
         {cat.name[lang] || cat.name.es}

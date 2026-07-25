@@ -18,23 +18,23 @@ const base = `/${lang}`;
     <div class="flex items-center justify-between h-18 sm:h-22 py-2">
       
       <!-- Unique & Striking Brand Logo: SASHA STORE -->
-      <a href={`${base}/`} class="flex items-center space-x-3.5 group focus:outline-none focus:ring-2 focus:ring-neutral-900 rounded-xl p-1">
+      <a href={`${base}/`} class="flex items-center space-x-2 sm:space-x-3.5 group focus:outline-none focus:ring-2 focus:ring-neutral-900 rounded-xl p-1 flex-shrink-0">
         <!-- Emblem Box with Animated Rotating Orange Line Border -->
         <div class="relative flex items-center justify-center">
-          <div class="logo-animated-border w-10 h-10 sm:w-11 sm:h-11 shadow-sm transition-transform duration-300 group-hover:scale-105">
+          <div class="logo-animated-border w-9 h-9 sm:w-11 sm:h-11 shadow-sm transition-transform duration-300 group-hover:scale-105">
             <div class="logo-animated-border-inner">
-              <span class="font-serif font-black text-xl text-white">S</span>
+              <span class="font-serif font-black text-lg sm:text-xl text-white">S</span>
             </div>
           </div>
-          <span class="absolute -top-0.5 -right-0.5 w-3 h-3 bg-orange-500 border-2 border-white rounded-full z-10 animate-pulse"></span>
+          <span class="absolute -top-0.5 -right-0.5 w-2.5 h-2.5 sm:w-3 sm:h-3 bg-orange-500 border-2 border-white rounded-full z-10 animate-pulse"></span>
         </div>
 
         <!-- Typography Logo -->
         <div class="flex flex-col">
-          <span class="font-serif font-black text-xl sm:text-2xl tracking-[0.18em] text-neutral-950 uppercase leading-none">
-            SASHA<span class="text-orange-500 font-serif font-light ml-1.5">STORE</span>
+          <span class="font-serif font-black text-base sm:text-2xl tracking-[0.14em] sm:tracking-[0.18em] text-neutral-950 uppercase leading-none">
+            SASHA<span class="text-orange-500 font-serif font-light ml-1 sm:ml-1.5">STORE</span>
           </span>
-          <span class="text-[9px] font-bold tracking-[0.25em] text-neutral-600 uppercase mt-1">
+          <span class="text-[8px] sm:text-[9px] font-bold tracking-[0.2em] sm:tracking-[0.25em] text-neutral-600 uppercase mt-0.5 sm:mt-1">
             USA Recommendations
           </span>
         </div>
@@ -71,7 +71,7 @@ const base = `/${lang}`;
       </nav>
 
       <!-- Right Controls: Social Media Icons, Language Selector & Mobile Hamburger Button -->
-      <div class="flex items-center space-x-3 sm:space-x-4">
+      <div class="flex items-center space-x-2 sm:space-x-4 flex-shrink-0">
         
         <!-- Social Icons Row (Desktop & Tablet) -->
         <div class="hidden lg:flex items-center space-x-2 pr-2 border-r border-neutral-200">

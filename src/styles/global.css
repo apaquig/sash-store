@@ -144,6 +144,22 @@
   z-index: 2;
 }
 
+/* Grow & Shrink (Pulse Scale) Effect for Emblem Letter S */
+@keyframes letter-scale-pulse {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.22);
+  }
+}
+
+.animate-letter-pulse {
+  display: inline-block;
+  animation: letter-scale-pulse 2.2s infinite ease-in-out;
+  will-change: transform;
+}
+
 /* Reduced motion preference */
 @media (prefers-reduced-motion: reduce) {
   html {

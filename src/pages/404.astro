@@ -13,6 +13,16 @@ const currentPath = '/404';
   lang={lang}
   currentPath={currentPath}
 >
+  <script is:inline>
+    (function() {
+      var path = window.location.pathname;
+      if (path.startsWith('/sash-store')) {
+        var newPath = path.replace(/^\/sash-store/, '') || '/';
+        window.location.replace(newPath + window.location.search + window.location.hash);
+      }
+    })();
+  </script>
+
   <div class="max-w-xl mx-auto px-4 py-20 text-center space-y-6">
     <div class="w-20 h-20 mx-auto rounded-full bg-orange-50 text-orange-500 flex items-center justify-center font-serif font-bold text-3xl shadow-soft">
       404

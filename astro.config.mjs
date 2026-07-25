@@ -3,7 +3,8 @@ import tailwind from '@astrojs/tailwind';
 import sitemap from '@astrojs/sitemap';
 
 export default defineConfig({
-  site: 'https://storefront-demo.com', // Replace with production URL
+  site: 'https://apaquig.github.io',
+  base: '/sash-store/',
   integrations: [
     tailwind({
       applyBaseStyles: false,

@@ -1,3 +1,7 @@
+---
+const baseUrl = import.meta.env.BASE_URL;
+---
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -5,21 +9,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sasha Store | Redirecting...</title>
     
-    <!-- Fallback redirect to English for non-JS environments -->
-    <meta http-equiv="refresh" content="0;url=/en/" />
+    <!-- Fallback redirect using base URL -->
+    <meta http-equiv="refresh" content={`0;url=${baseUrl}es/`} />
 
     <!-- Instant client-side browser language detection -->
-    <script is:inline>
+    <script is:inline define:vars={{ baseUrl }}>
       (function() {
         try {
           var userLang = (navigator.language || navigator.userLanguage || '').toLowerCase();
+          var prefix = baseUrl.endsWith('/') ? baseUrl : baseUrl + '/';
           if (userLang.indexOf('es') === 0) {
-            window.location.replace('/es/');
+            window.location.replace(prefix + 'es/');
           } else {
-            window.location.replace('/en/');
+            window.location.replace(prefix + 'en/');
           }
         } catch (e) {
-          window.location.replace('/en/');
+          var prefix = baseUrl.endsWith('/') ? baseUrl : baseUrl + '/';
+          window.location.replace(prefix + 'es/');
         }
       })();
     </script>

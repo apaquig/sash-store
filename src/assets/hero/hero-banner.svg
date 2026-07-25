@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="100%" height="100%">
+  <defs>
+    <linearGradient id="heroGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fdf4f6" />
+      <stop offset="50%" stop-color="#faf7f2" />
+      <stop offset="100%" stop-color="#fce7ee" />
+    </linearGradient>
+    <linearGradient id="circleGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f7a4c7" stop-opacity="0.4" />
+      <stop offset="100%" stop-color="#e84388" stop-opacity="0.2" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" rx="36" fill="url(#heroGrad)" />
+  <!-- Floating decorative organic shapes -->
+  <circle cx="950" cy="200" r="240" fill="url(#circleGrad)" />
+  <circle cx="200" cy="650" r="180" fill="url(#circleGrad)" />
+  <path d="M700 400C850 350 950 500 1100 450C1250 400 1200 650 1050 700C900 750 800 600 700 400Z" fill="#e84388" fill-opacity="0.05" />
+  
+  <!-- Minimalist Mockup Card -->
+  <g transform="translate(620, 140)">
+    <rect width="480" height="520" rx="28" fill="#ffffff" fill-opacity="0.9" box-shadow="0 20px 40px rgba(0,0,0,0.05)" />
+    <!-- Product Mockup Image placeholder inside hero -->
+    <rect x="40" y="40" width="400" height="280" rx="20" fill="#fcf0ed" />
+    <circle cx="240" cy="180" r="60" fill="#f7a4c7" fill-opacity="0.3" />
+    <!-- Product details mockup lines -->
+    <rect x="40" y="350" width="140" height="16" rx="8" fill="#e84388" fill-opacity="0.7" />
+    <rect x="40" y="380" width="320" height="20" rx="6" fill="#292524" fill-opacity="0.8" />
+    <rect x="40" y="415" width="380" height="12" rx="4" fill="#78716c" fill-opacity="0.4" />
+    <rect x="40" y="435" width="260" height="12" rx="4" fill="#78716c" fill-opacity="0.4" />
+    <!-- Button mockup -->
+    <rect x="40" y="465" width="180" height="36" rx="18" fill="#e84388" />
+  </g>
+</svg>

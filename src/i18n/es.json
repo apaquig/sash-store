@@ -1,0 +1,92 @@
+{
+  "site": {
+    "title": "Sasha Store | Productos Recomendados de Amazon para EE.UU.",
+    "description": "Tienda sencilla y elegante con selecciones de belleza, viajes y hogar. Reseñas honestas y enlaces directos a Amazon."
+  },
+  "nav": {
+    "home": "Inicio",
+    "categories": "Categorías",
+    "favorites": "Mis Favoritos",
+    "about": "Acerca de",
+    "editorialPolicy": "Criterios",
+    "affiliateDisclosure": "Divulgación de Afiliados",
+    "privacy": "Privacidad",
+    "openMenu": "Abrir menú de navegación",
+    "closeMenu": "Cerrar menú de navegación"
+  },
+  "announcement": {
+    "text": "Sasha Store • Selección recomendada de productos • Enlaces a Amazon",
+    "tag": "Verano 2026"
+  },
+  "categories": {
+    "title": "Categorías",
+    "subtitle": "Explora por categoría",
+    "viewCategory": "Ver categoría"
+  },
+  "products": {
+    "featuredTitle": "Nuestros Productos",
+    "featuredSubtitle": "Selección recomendada con enlace directo a Amazon",
+    "demoNoticeTitle": "Contenido de Demostración",
+    "demoNoticeText": "Prototipo de maquetación. El enlace oficial se activará próximamente.",
+    "demoBadge": "Demostración",
+    "viewDetails": "Ver detalles",
+    "viewOnAmazon": "Ver en Amazon",
+    "linkPending": "Enlace pendiente",
+    "rating": "Calificación",
+    "externalLinkNote": "Abre en Amazon.com en una nueva ventana",
+    "noProductsFound": "No encontramos productos con esos criterios.",
+    "resetFilters": "Limpiar filtros"
+  },
+  "search": {
+    "placeholder": "Buscar producto...",
+    "categoryAll": "Todas las categorías",
+    "sortBy": "Ordenar por:",
+    "sortRating": "Mejor calificación",
+    "sortAlpha": "Nombre (A-Z)",
+    "sortRecommended": "Recomendados"
+  },
+  "favorites": {
+    "title": "Mis Favoritos",
+    "subtitle": "Productos que has guardado",
+    "emptyState": "Aún no has guardado productos en tus favoritos.",
+    "browseCatalog": "Ver productos",
+    "add": "Guardar en favoritos",
+    "remove": "Quitar de favoritos"
+  },
+  "sections": {
+    "howWeSelectTitle": "¿Cómo Seleccionamos los Productos?",
+    "howWeSelectSubtitle": "Transparencia e independencia editorial",
+    "howWeSelectText": "Seleccionamos productos basándonos en la calidad de materiales, diseño práctico y opiniones de compradores reales en EE.UU.",
+    "benefitsTitle": "¿Por Qué Confiar en Nuestras Recomendaciones?",
+    "benefit1Title": "Selección Independiente",
+    "benefit1Text": "Recomendaciones basadas en calidad y diseño estético.",
+    "benefit2Title": "Enlace Directo y Seguro",
+    "benefit2Text": "Redirección transparente a la tienda oficial de Amazon.",
+    "benefit3Title": "Transparencia Total",
+    "benefit3Text": "Identificamos claramente el programa de afiliados sin costo extra.",
+    "faqTitle": "Preguntas Frecuentes",
+    "faqSubtitle": "Respuestas rápidas sobre la tienda y los enlaces de afiliado"
+  },
+  "affiliate": {
+    "disclosureTitle": "Divulgación de Afiliados de Amazon",
+    "disclosureNotice": "En calidad de Afiliado de Amazon, obtengo ingresos por las compras adscritas que cumplen los requisitos aplicables. Esto no incrementa el precio de tu compra.",
+    "moreInfoLink": "Leer política de afiliados"
+  },
+  "footer": {
+    "rights": "Todos los derechos reservados.",
+    "amazonDisclaimer": "Amazon y el logotipo de Amazon son marcas comerciales de Amazon.com, Inc. o sus filiales.",
+    "navigation": "Navegación",
+    "legal": "Información Legal",
+    "categories": "Categorías"
+  },
+  "language": {
+    "select": "Idioma",
+    "spanish": "Español",
+    "english": "English"
+  },
+  "notFound": {
+    "title": "Página no encontrada",
+    "description": "La página que buscas no existe.",
+    "backHome": "Volver al inicio"
+  }
+}

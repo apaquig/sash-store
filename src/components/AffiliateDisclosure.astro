@@ -1,0 +1,32 @@
+---
+import type { Language } from '../utils/getTranslations';
+
+interface Props {
+  lang: Language;
+  t: any;
+  className?: string;
+}
+
+const { lang, t, className = 'my-8 p-6 rounded-3xl bg-neutral-50 border border-neutral-200 shadow-soft' } = Astro.props;
+const base = `/${lang}`;
+const disclosureUrl = lang === 'es' ? `${base}/divulgacion-afiliados/` : `${base}/affiliate-disclosure/`;
+---
+
+<div class={className}>
+  <div class="flex items-start space-x-4">
+    <div class="w-10 h-10 rounded-2xl bg-neutral-900 text-white flex items-center justify-center flex-shrink-0 mt-0.5 font-bold text-sm">
+      i
+    </div>
+    <div class="space-y-1">
+      <h3 class="text-xs font-bold uppercase tracking-wider text-neutral-900">
+        {t.affiliate.disclosureTitle}
+      </h3>
+      <p class="text-xs text-neutral-700 leading-relaxed">
+        {t.affiliate.disclosureNotice}
+      </p>
+      <a href={disclosureUrl} class="inline-block pt-1 text-xs font-bold text-neutral-900 hover:text-black underline">
+        {t.affiliate.moreInfoLink}
+      </a>
+    </div>
+  </div>
+</div>

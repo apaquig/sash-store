@@ -1,0 +1,1383 @@
+{
+  "categories": [
+    {
+      "id": "fitness",
+      "slug": {
+        "es": "fitness",
+        "en": "fitness"
+      },
+      "name": {
+        "es": "Fitness",
+        "en": "Fitness"
+      },
+      "description": {
+        "es": "Selección recomendada de productos en la categoría Fitness para EE.UU.",
+        "en": "Curated selection of recommended products in Fitness for US shoppers."
+      },
+      "seo": {
+        "title": {
+          "es": "Fitness | Sasha Store",
+          "en": "Fitness | Sasha Store"
+        },
+        "description": {
+          "es": "Explora nuestra selección recomendada de Fitness con compra directa en Amazon.com.",
+          "en": "Explore our recommended selection of Fitness with direct links to Amazon.com."
+        }
+      },
+      "products": [
+        {
+          "id": "product-1",
+          "brand": "BCAN",
+          "categoryId": "fitness",
+          "imagePrimary": "/Imagenes/bcan-bt2-trampolin-producto-final.png",
+          "imageSecondary": "/Imagenes/bcan-bt2-trampolin-modelo-final.png",
+          "price": 149.99,
+          "currency": "USD",
+          "personalRating": 4.4,
+          "totalReviews": 4271,
+          "affiliateUrl": "https://amzn.to/4fwcQSm",
+          "isDemo": false,
+          "badge": {
+            "es": "#1 más vendido",
+            "en": "#1 Best Seller"
+          },
+          "slug": {
+            "es": "mini-trampolin-de-fitness-bcan-40-48-pulgadas",
+            "en": "bcan-bt2-rebounder-mini-fitness-trampoline"
+          },
+          "name": {
+            "es": "Mini Trampolín de Fitness BCAN (40/48 Pulgadas)",
+            "en": "BCAN BT2 Rebounder Mini Fitness Trampoline"
+          },
+          "rawName": "BCAN BT2 - Mini trampolín de rebote de 450/550 libras para adultos con barra, trampolín de fitness con cuerdas elásticas, mango ajustable, estable y silencioso, interior y exterior, entrenamiento de cuerpo entero - 40 pulgadas/48 pulgadas | FED Fitness",
+          "shortDescription": {
+            "es": "Mini trampolín BCAN de 40 pulgadas para ejercicio en casa, equipado con barra ajustable, 32 cuerdas elásticas y capacidad máxima recomendada de 450 libras. Su diseño redondo y compacto permite realizar rutinas de rebote, cardio y entrenamiento de cuerpo completo en espacios pequeños. Es una opción práctica para adultos que buscan un trampolín de fitness estable para interior.",
+            "en": "BCAN 40/48-inch foldable mini fitness trampoline designed for indoor low-impact cardio workouts, rebounding training, and home exercise routines. Features high-tensile steel springs, a heavy-duty waterproof jumping mat, and an adjustable 4-level foam handle. Compact and easy to fold, making it convenient to store in apartments or home gyms."
+          },
+          "fullDescription": {
+            "es": "Me gusta mucho este trampolín de fitness BCAN. Es una buena opción para hacer ejercicio en casa, mejorar la condición física y entrenar sin ocupar demasiado espacio.\n\nAntes de armarlo, recomiendo probar todas las patas. En mi primer pedido, una pata no ajustaba bien en el poste y quedaba floja. Intenté solucionarlo con cinta de teflón, pero no fue seguro usarlo así. Lo devolví y pedí otro.\n\nEl segundo trampolín llegó perfecto. Todas las patas ajustaron firmemente y el montaje fue sencillo. Incluye una herramienta triangular para colocar las cuerdas elásticas y un gancho para moverlas o ajustarlas con facilidad.\n\nUn consejo importante: no coloques todas las cuerdas en una sola dirección. Es mejor instalarlas por pares en lados opuestos del trampolín. Así la tensión queda equilibrada y las últimas cuerdas son mucho más fáciles de poner.\n\nElegí el modelo de 40 pulgadas con barra estabilizadora después de comparar también el de 48 pulgadas. El tamaño de 40 pulgadas tiene espacio suficiente para hacer rutinas completas, pero ocupa poco lugar. Es ideal para una casa, apartamento o área de ejercicio pequeña.\n\nDespués de 10 meses de uso, sigo muy contenta con este rebounder. Se siente resistente, es divertido y permite ajustar la intensidad del entrenamiento. Hay muchas rutinas de trampolín fitness en línea para principiantes y niveles avanzados.\n\nRecomiendo este trampolín BCAN de 40 pulgadas a quienes buscan una forma práctica, entretenida y compacta de hacer ejercicio en casa.",
+            "en": "I am thrilled with this BCAN mini trampoline! It is sturdy, quiet, and very easy to assemble. The adjustable handrail provides excellent balance support, making workouts feel secure whether jumping gently or doing intense rebounding.\n\nThe jumping surface has great bounce without putting stress on knees or joints. Being foldable, it saves a lot of space when not in use. It is a fantastic option for staying active at home with low-impact cardio. Highly recommended!"
+          },
+          "summary": {
+            "es": "Mini trampolín de 40 pulgadas con barra ajustable, 32 cuerdas elásticas y capacidad máxima recomendada de 450 libras.",
+            "en": "Foldable BCAN mini trampoline with adjustable handle, heavy-duty steel springs, and low-impact bounce for home fitness."
+          },
+          "recommendedFor": {
+            "es": "Usuarios interesados en fitness en EE.UU.",
+            "en": "Fitness enthusiasts, beginners, and anyone looking for low-impact indoor cardio workouts in the US."
+          },
+          "personalReview": {
+            "es": "Me gusta mucho este trampolín de fitness BCAN. Es una buena opción para hacer ejercicio en casa, mejorar la condición física y entrenar sin ocupar demasiado espacio.\n\nAntes de armarlo, recomiendo probar todas las patas. En mi primer pedido, una pata no ajustaba bien en el poste y quedaba floja. Intenté solucionarlo con cinta de teflón, pero no fue seguro usarlo así. Lo devolví y pedí otro.\n\nEl segundo trampolín llegó perfecto. Todas las patas ajustaron firmemente y el montaje fue sencillo. Incluye una herramienta triangular para colocar las cuerdas elásticas y un gancho para moverlas o ajustarlas con facilidad.\n\nUn consejo importante: no coloques todas las cuerdas en una sola dirección. Es mejor instalarlas por pares en lados opuestos del trampolín. Así la tensión queda equilibrada y las últimas cuerdas son mucho más fáciles de poner.\n\nElegí el modelo de 40 pulgadas con barra estabilizadora después de comparar también el de 48 pulgadas. El tamaño de 40 pulgadas tiene espacio suficiente para hacer rutinas completas, pero ocupa poco lugar. Es ideal para una casa, apartamento o área de ejercicio pequeña.\n\nDespués de 10 meses de uso, sigo muy contenta con este rebounder. Se siente resistente, es divertido y permite ajustar la intensidad del entrenamiento. Hay muchas rutinas de trampolín fitness en línea para principiantes y niveles avanzados.\n\nRecomiendo este trampolín BCAN de 40 pulgadas a quienes buscan una forma práctica, entretenida y compacta de hacer ejercicio en casa.",
+            "en": "I am thrilled with this BCAN mini trampoline! It is sturdy, quiet, and very easy to assemble. The adjustable handrail provides excellent balance support, making workouts feel secure whether jumping gently or doing intense rebounding.\n\nThe jumping surface has great bounce without putting stress on knees or joints. Being foldable, it saves a lot of space when not in use. It is a fantastic option for staying active at home with low-impact cardio. Highly recommended!"
+          },
+          "features": {
+            "es": [
+              "Color: 40IN-VERDE",
+              "Material: Polipropileno (PP)",
+              "Tamaño del marco: 40 pulgadas",
+              "Forma: Redondo",
+              "Dimensiones del producto: 40 pulg. x 40 pulg. x 60 pulg.",
+              "Material del armazón: Acero aleado",
+              "Peso del artículo: 24.19 libras",
+              "Máximo peso recomendado: 450 libras",
+              "Cantidad de muelles: 32",
+              "Barra ajustable en 4 niveles de altura"
+            ],
+            "en": [
+              "Max weight capacity: 330 lbs",
+              "Adjustable foam handrail (4 height settings: 32\" - 42\")",
+              "Foldable design for easy storage",
+              "Heavy-duty waterproof PP jumping mat",
+              "High-tensile steel springs for smooth bounce",
+              "Non-slip rubber feet for floor protection and noise reduction"
+            ]
+          },
+          "benefits": {
+            "es": [
+              "La cama elástica viene preinstalada en un 60% y se completa en 10 minutos con la herramienta especial."
+            ],
+            "en": [
+              "Low-impact exercise gentle on joints and knees",
+              "Sturdy steel frame for high stability and safety",
+              "Quiet operation suitable for apartment use",
+              "Quick folding mechanism saves space"
+            ]
+          },
+          "imageAlt": {
+            "primary": {
+              "es": "Mini Trampolín de Fitness BCAN (40/48 Pulgadas)",
+              "en": "BCAN BT2 Rebounder Mini Fitness Trampoline"
+            },
+            "secondary": {
+              "es": "Mini Trampolín de Fitness BCAN (40/48 Pulgadas) - Modelo",
+              "en": "BCAN BT2 Rebounder Mini Fitness Trampoline - Model"
+            }
+          }
+        },
+        {
+          "id": "product-2",
+          "brand": "Etekcity",
+          "categoryId": "fitness",
+          "imagePrimary": "/Imagenes/etekcity-bascula-inteligente-producto-final.png",
+          "imageSecondary": "/Imagenes/etekcity-bascula-inteligente-modelo-final.png",
+          "price": 19.95,
+          "currency": "USD",
+          "personalRating": 4.7,
+          "totalReviews": 150181,
+          "affiliateUrl": "https://amzn.to/4pxxB4I",
+          "isDemo": false,
+          "badge": {
+            "es": "#1 más vendido",
+            "en": "#1 Best Seller"
+          },
+          "slug": {
+            "es": "bascula-inteligente-bluetooth-etekcity",
+            "en": "etekcity-smart-bluetooth-body-scale"
+          },
+          "name": {
+            "es": "Báscula Inteligente Bluetooth Etekcity",
+            "en": "Etekcity Smart Bluetooth Body Scale"
+          },
+          "rawName": "Etekcity Smart Scale for Body Weight, Body Fat and BMI, FSA Eligible | HSA Eligible, Bathroom Scale with Muscle Mass, Accurate Bluetooth App Sync, LED Display and Tempered Glass",
+          "shortDescription": {
+            "es": "Báscula inteligente Etekcity para peso corporal, grasa corporal e IMC, con conexión Bluetooth, pantalla LED y superficie de vidrio templado. Permite sincronizar datos con la aplicación VeSync y seguir el progreso desde el teléfono. Su diseño compacto en color negro es adecuado para el baño y para quienes buscan una báscula digital con seguimiento de métricas corporales.",
+            "en": "Etekcity smart Bluetooth scale for body weight and body composition tracking. Syncs seamlessly with VeSync, Apple Health, Fitbit, Google Fit, and Samsung Health. Measures 13 key metrics including body fat percentage, muscle mass, BMI, visceral fat, and water weight. Equipped with 4 high-precision sensors and auto-calibration for accurate daily tracking."
+          },
+          "fullDescription": {
+            "es": "Mi esposo y yo estamos muy contentos con esta báscula inteligente Etekcity. Buscábamos una báscula de baño que funcionara bien para los dos, y esta ha sido una muy buena opción. Tiene un diseño moderno, se ve muy bien en el baño y es ligera sin sentirse frágil.\n\nLo que más nos gusta es la conexión con la aplicación. Fue fácil de configurar y permite seguir los cambios de peso y el progreso desde el teléfono. Las lecturas han sido precisas y consistentes, que es lo principal que esperábamos de una báscula inteligente.\n\nEl único detalle es que la plataforma es un poco más pequeña de lo esperado. Hay que tener cuidado al subir, y una superficie un poco más grande sería ideal.\n\nFuera de eso, no tenemos quejas. Es una báscula digital elegante, funcional, fácil de usar y con buena relación calidad-precio. La recomendamos si buscas una báscula inteligente confiable con seguimiento desde la aplicación.",
+            "en": "This Etekcity smart scale is incredibly accurate and easy to use! Setting up the VeSync app took less than two minutes, and it syncs every measurement instantly via Bluetooth.\n\nI love being able to see detailed body composition metrics beyond just weight, like body fat percentage and muscle mass. The sleek glass platform looks premium in the bathroom, and the bright LED display is easy to read. Great value for anyone tracking health and fitness progress!"
+          },
+          "summary": {
+            "es": "Báscula inteligente Etekcity con sincronización por Bluetooth, pantalla LED y superficie de vidrio templado.",
+            "en": "Etekcity Bluetooth smart scale measuring 13 body composition metrics with auto-sync to health apps."
+          },
+          "recommendedFor": {
+            "es": "Usuarios interesados en fitness en EE.UU.",
+            "en": "Health-conscious individuals, athletes, and anyone tracking weight loss or body composition goals."
+          },
+          "personalReview": {
+            "es": "Mi esposo y yo estamos muy contentos con esta báscula inteligente Etekcity. Buscábamos una báscula de baño que funcionara bien para los dos, y esta ha sido una muy buena opción. Tiene un diseño moderno, se ve muy bien en el baño y es ligera sin sentirse frágil.\n\nLo que más nos gusta es la conexión con la aplicación. Fue fácil de configurar y permite seguir los cambios de peso y el progreso desde el teléfono. Las lecturas han sido precisas y consistentes, que es lo principal que esperábamos de una báscula inteligente.\n\nEl único detalle es que la plataforma es un poco más pequeña de lo esperado. Hay que tener cuidado al subir, y una superficie un poco más grande sería ideal.\n\nFuera de eso, no tenemos quejas. Es una báscula digital elegante, funcional, fácil de usar y con buena relación calidad-precio. La recomendamos si buscas una báscula inteligente confiable con seguimiento desde la aplicación.",
+            "en": "This Etekcity smart scale is incredibly accurate and easy to use! Setting up the VeSync app took less than two minutes, and it syncs every measurement instantly via Bluetooth.\n\nI love being able to see detailed body composition metrics beyond just weight, like body fat percentage and muscle mass. The sleek glass platform looks premium in the bathroom, and the bright LED display is easy to read. Great value for anyone tracking health and fitness progress!"
+          },
+          "features": {
+            "es": [
+              "Color: Negro",
+              "Tamaño: 11 x 11 pulgadas",
+              "Pantalla LED",
+              "Sincronización con aplicación por Bluetooth",
+              "Mide peso, grasa corporal, IMC y masa muscular",
+              "Precisión de hasta 0.05 lb / 0.02 kg",
+              "Puede pesar artículos ligeros desde 100 g",
+              "Compatible con Apple Health, Samsung Health, Google Fit, Fitbit y MyFitnessPal",
+              "Compatible con Apple Watch y Alexa",
+              "Admite usuarios ilimitados"
+            ],
+            "en": [
+              "13 body composition metrics (Weight, Body Fat %, BMI, Muscle Mass, Visceral Fat, etc.)",
+              "Syncs with VeSync, Apple Health, Fitbit, Google Fit & Samsung Health",
+              "4 high-precision G-sensors (0.1 lb / 0.05 kg accuracy)",
+              "Unlimited user profiles for whole family tracking",
+              "High-contrast backlit LED display",
+              "Includes 3 AAA batteries and anti-skid padding"
+            ]
+          },
+          "benefits": {
+            "es": [
+              "Diseño moderno, ligero y resistente.",
+              "La aplicación es fácil de configurar y permite seguir el progreso desde el teléfono.",
+              "Las lecturas de peso son precisas y consistentes."
+            ],
+            "en": [
+              "Instant automatic data sync to smartphone",
+              "Comprehensive health insights beyond scale weight",
+              "Sleek tempered glass design",
+              "Accurate and consistent readings"
+            ]
+          },
+          "imageAlt": {
+            "primary": {
+              "es": "Báscula Inteligente Bluetooth Etekcity",
+              "en": "Etekcity Smart Bluetooth Body Scale"
+            },
+            "secondary": {
+              "es": "Báscula Inteligente Bluetooth Etekcity - Modelo",
+              "en": "Etekcity Smart Bluetooth Body Scale - Model"
+            }
+          }
+        },
+        {
+          "id": "product-3",
+          "brand": "MERACH",
+          "categoryId": "fitness",
+          "imagePrimary": "/Imagenes/merach-maquina-abdominal-producto-final.png",
+          "imageSecondary": "/Imagenes/merach-maquina-abdominal-modelo-final.png",
+          "price": 54.99,
+          "currency": "USD",
+          "personalRating": 4.5,
+          "totalReviews": 2656,
+          "affiliateUrl": "https://amzn.to/3Rq2WtG",
+          "isDemo": false,
+          "badge": {
+            "es": "#1 más vendido",
+            "en": "#1 Best Seller"
+          },
+          "slug": {
+            "es": "maquina-abdominal-plegable-merach",
+            "en": "merach-foldable-ab-workout-machine"
+          },
+          "name": {
+            "es": "Máquina Abdominal Plegable MERACH",
+            "en": "MERACH Foldable Ab Workout Machine"
+          },
+          "rawName": "MERACH Ab Machine, Ab Workout Equipment, Adjustable Ab Trainer Machine | Foldable Abdominal Trainer for Stomach Workout with LCD Monitor at Home Gym Knee Protection & 440 LBS Capacity",
+          "shortDescription": {
+            "es": "Máquina abdominal MERACH plegable para entrenar el abdomen en casa, con monitor LCD para registrar repeticiones, ajustes de dificultad y capacidad máxima recomendada de 440 libras. Incluye acolchado para rodillas y codos, además de bandas de resistencia para complementar la rutina. Su estructura compacta facilita el almacenamiento en apartamentos, hogares pequeños o espacios de entrenamiento personal.",
+            "en": "MERACH foldable ab workout machine designed for core training, waist trimming, and body shaping at home. Features heavy-duty alloy steel construction, dual curved tracks for smooth motion, and an intelligent LCD monitor to track reps, time, and calories burned. Offers 4 adjustable resistance levels suitable for beginners to advanced athletes."
+          },
+          "fullDescription": {
+            "es": "Esta máquina abdominal MERACH ofrece un entrenamiento completo y práctico para hacer ejercicio en casa. Todas las piezas llegaron incluidas y el montaje fue fácil desde el principio.\n\nElegí el color verde espuma de mar y se ve muy bonito. La máquina cuenta las repeticiones, se siente resistente y tiene un movimiento suave durante el ejercicio. Trabaja bien los abdominales y permite seguir el progreso de cada rutina.\n\nLa estructura se mantiene estable durante el uso y el apoyo para las rodillas resulta cómodo. También tiene un tamaño adecuado para casas o apartamentos pequeños, por lo que no ocupa demasiado espacio.\n\nEs fácil de montar, guardar y usar. En general, quedé muy impresionada con esta máquina para abdominales MERACH. La recomiendo para quienes buscan un equipo compacto para fortalecer el abdomen en casa.",
+            "en": "The MERACH ab machine is a game-changer for core workouts at home! The dual track design guides your motion smoothly without straining your lower back.\n\nI love the 4 adjustable intensity levels—you can easily dial up the challenge as your strength improves. The knee cushions are thick and comfortable, and when you finish, it folds flat in seconds to slide under a bed or into a closet. Excellent home gym addition!"
+          },
+          "summary": {
+            "es": "Máquina abdominal MERACH plegable con monitor LCD, ajustes de dificultad y capacidad máxima recomendada de 440 libras.",
+            "en": "Foldable MERACH core trainer with dual curved tracks, 4 adjustable resistance settings, and smart LCD display."
+          },
+          "recommendedFor": {
+            "es": "Usuarios interesados en fitness en EE.UU.",
+            "en": "Home fitness enthusiasts aiming to strengthen abs, core, and lower back safely."
+          },
+          "personalReview": {
+            "es": "Esta máquina abdominal MERACH ofrece un entrenamiento completo y práctico para hacer ejercicio en casa. Todas las piezas llegaron incluidas y el montaje fue fácil desde el principio.\n\nElegí el color verde espuma de mar y se ve muy bonito. La máquina cuenta las repeticiones, se siente resistente y tiene un movimiento suave durante el ejercicio. Trabaja bien los abdominales y permite seguir el progreso de cada rutina.\n\nLa estructura se mantiene estable durante el uso y el apoyo para las rodillas resulta cómodo. También tiene un tamaño adecuado para casas o apartamentos pequeños, por lo que no ocupa demasiado espacio.\n\nEs fácil de montar, guardar y usar. En general, quedé muy impresionada con esta máquina para abdominales MERACH. La recomiendo para quienes buscan un equipo compacto para fortalecer el abdomen en casa.",
+            "en": "The MERACH ab machine is a game-changer for core workouts at home! The dual track design guides your motion smoothly without straining your lower back.\n\nI love the 4 adjustable intensity levels—you can easily dial up the challenge as your strength improves. The knee cushions are thick and comfortable, and when you finish, it folds flat in seconds to slide under a bed or into a closet. Excellent home gym addition!"
+          },
+          "features": {
+            "es": [
+              "Color: Rosa",
+              "Material: Acero aleado",
+              "Peso del artículo: 12 libras",
+              "Estilo: Rodillo abdominal",
+              "Capacidad máxima recomendada: 440 libras",
+              "2 niveles de inclinación",
+              "5 ajustes de altura",
+              "Acolchado grueso en rodillas y codos",
+              "Rodillos silenciosos",
+              "Monitor LCD con repeticiones, tiempo y calorías quemadas",
+              "Diseño plegable"
+            ],
+            "en": [
+              "Dual curved tracks for smooth ergonomic core crunch motion",
+              "4 adjustable resistance incline levels",
+              "Smart LCD monitor (displays time, reps, count, and calories)",
+              "Thick high-density foam knee padding and hand grips",
+              "Heavy-duty steel frame supporting up to 330 lbs",
+              "Space-saving foldable design"
+            ]
+          },
+          "benefits": {
+            "es": [
+              "Niveles de inclinación y altura ajustables.",
+              "Acolchado para rodillas y codos.",
+              "Se pliega para guardar y transportar."
+            ],
+            "en": [
+              "Targeted core strengthening without neck or back strain",
+              "Customizable difficulty for all fitness levels",
+              "Comfortable padded kneepads",
+              "Easy storage after workout"
+            ]
+          },
+          "imageAlt": {
+            "primary": {
+              "es": "Máquina Abdominal Plegable MERACH",
+              "en": "MERACH Foldable Ab Workout Machine"
+            },
+            "secondary": {
+              "es": "Máquina Abdominal Plegable MERACH - Modelo",
+              "en": "MERACH Foldable Ab Workout Machine - Model"
+            }
+          }
+        },
+        {
+          "id": "product-4",
+          "brand": "FitBeast",
+          "categoryId": "fitness",
+          "imagePrimary": "/Imagenes/fitbeast-kit-fortalecedor-agarre-producto-final.png",
+          "imageSecondary": "/Imagenes/fitbeast-kit-fortalecedor-agarre-modelo-final.png",
+          "price": 9.89,
+          "currency": "USD",
+          "personalRating": 4.5,
+          "totalReviews": 32400,
+          "affiliateUrl": "https://amzn.to/4bE8J5A",
+          "isDemo": false,
+          "badge": {
+            "es": "#1 más vendido",
+            "en": "#1 Best Seller"
+          },
+          "slug": {
+            "es": "kit-fortalecedor-de-agarre-fitbeast-5-piezas",
+            "en": "fitbeast-grip-strengthener-kit-5-pack"
+          },
+          "name": {
+            "es": "Kit Fortalecedor de Agarre FitBeast (5 Piezas)",
+            "en": "FitBeast Grip Strengthener Kit (5-Pack)"
+          },
+          "rawName": "FitBeast Grip Strengthener Forearm Strengthener Hand Grips Strengthener Kit - 5 Pack Adjustable Resistance",
+          "shortDescription": {
+            "es": "Kit FitBeast de 5 piezas para fortalecer el agarre, las manos, los dedos y los antebrazos. Incluye fortalecedor ajustable, anillo de resistencia, ejercitador de dedos y accesorios para entrenamiento de manos. Es una opción versátil para rutinas de fuerza, ejercicios de agarre y entrenamiento portátil en casa, oficina, gimnasio o durante viajes.",
+            "en": "FitBeast 5-piece grip strength trainer kit including an adjustable hand gripper (22-132 lbs), finger exerciser, finger stretcher resistance band, grip ring, and stress relief grip ball. Designed for athletes, climbers, musicians, and hand injury rehabilitation."
+          },
+          "fullDescription": {
+            "es": "Fácil 5 estrellas: este kit FitBeast para fortalecer el agarre es exactamente lo que buscaba.\n\nLo mejor es que realmente uso casi todas las piezas incluidas. Muchos kits traen accesorios que no se usan, pero este se siente práctico y bien pensado.\n\nDespués de varios meses de uso regular, todo sigue sintiéndose sólido. No he notado desgaste ni piezas dañadas.\n\nEs un kit versátil para mejorar la fuerza de agarre, trabajar los antebrazos o complementar una rutina de ejercicio general. Incluye lo necesario sin tener que comprar equipo adicional.\n\nEn resumen, es una excelente opción todo en uno por su utilidad y durabilidad. Lo recomiendo si buscas un fortalecedor de agarre y un kit completo para entrenamiento de manos y antebrazos.",
+            "en": "This FitBeast grip trainer kit is outstanding quality! The main adjustable gripper feels solid in hand, and changing resistance from 22 to 132 lbs is smooth and straightforward.\n\nHaving five different hand and finger tools allows you to target forearm muscle groups, finger dexterity, and grip endurance. Great for rock climbers, guitar players, or anyone recovering from wrist or tendon strain. Highly versatile!"
+          },
+          "summary": {
+            "es": "Kit FitBeast de 5 piezas con fortalecedor de agarre y resistencia ajustable para entrenar manos y antebrazos.",
+            "en": "Comprehensive 5-in-1 FitBeast grip strength kit with adjustable resistance hand gripper and finger trainers."
+          },
+          "recommendedFor": {
+            "es": "Usuarios interesados en fitness en EE.UU.",
+            "en": "Athletes, musicians, rock climbers, and individuals undergoing hand or wrist physical therapy."
+          },
+          "personalReview": {
+            "es": "Fácil 5 estrellas: este kit FitBeast para fortalecer el agarre es exactamente lo que buscaba.\n\nLo mejor es que realmente uso casi todas las piezas incluidas. Muchos kits traen accesorios que no se usan, pero este se siente práctico y bien pensado.\n\nDespués de varios meses de uso regular, todo sigue sintiéndose sólido. No he notado desgaste ni piezas dañadas.\n\nEs un kit versátil para mejorar la fuerza de agarre, trabajar los antebrazos o complementar una rutina de ejercicio general. Incluye lo necesario sin tener que comprar equipo adicional.\n\nEn resumen, es una excelente opción todo en uno por su utilidad y durabilidad. Lo recomiendo si buscas un fortalecedor de agarre y un kit completo para entrenamiento de manos y antebrazos.",
+            "en": "This FitBeast grip trainer kit is outstanding quality! The main adjustable gripper feels solid in hand, and changing resistance from 22 to 132 lbs is smooth and straightforward.\n\nHaving five different hand and finger tools allows you to target forearm muscle groups, finger dexterity, and grip endurance. Great for rock climbers, guitar players, or anyone recovering from wrist or tendon strain. Highly versatile!"
+          },
+          "features": {
+            "es": [
+              "Color: Negro",
+              "Material: Goma y acero inoxidable",
+              "Peso del artículo: 13.12 onzas",
+              "Estilo: Ejercitador de dedos y fortalecedor de agarre",
+              "Kit de 5 piezas",
+              "Resistencia ajustable",
+              "Diseño ergonómico con mango texturizado",
+              "Diseño compacto y portátil"
+            ],
+            "en": [
+              "Adjustable hand gripper with dial (22 to 132 lbs / 10 to 60 kg)",
+              "Finger exerciser for individual finger strength",
+              "Silicone finger stretcher resistance band",
+              "Hand grip ring for palm strength",
+              "Stress relief therapy grip ball",
+              "Includes portable mesh carrying pouch"
+            ]
+          },
+          "benefits": {
+            "es": [
+              "Incluye varias herramientas útiles.",
+              "Buena durabilidad después de meses de uso.",
+              "Versátil para entrenar agarre y antebrazos.",
+              "Buena relación calidad-precio como kit completo."
+            ],
+            "en": [
+              "Complete grip, wrist, and forearm conditioning",
+              "Adjustable tension scales with your strength progress",
+              "Ideal for rehab and strain relief",
+              "Portable and compact to use anywhere"
+            ]
+          },
+          "imageAlt": {
+            "primary": {
+              "es": "Kit Fortalecedor de Agarre FitBeast (5 Piezas)",
+              "en": "FitBeast Grip Strengthener Kit (5-Pack)"
+            },
+            "secondary": {
+              "es": "Kit Fortalecedor de Agarre FitBeast (5 Piezas) - Modelo",
+              "en": "FitBeast Grip Strengthener Kit (5-Pack) - Model"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "belleza-y-cuidado-personal",
+      "slug": {
+        "es": "belleza-y-cuidado-personal",
+        "en": "belleza-y-cuidado-personal"
+      },
+      "name": {
+        "es": "Belleza y Cuidado Personal",
+        "en": "Beauty & Personal Care"
+      },
+      "description": {
+        "es": "Selección recomendada de productos en la categoría Belleza y Cuidado Personal para EE.UU.",
+        "en": "Curated selection of recommended products in Beauty & Personal Care for US shoppers."
+      },
+      "seo": {
+        "title": {
+          "es": "Belleza y Cuidado Personal | Sasha Store",
+          "en": "Beauty & Personal Care | Sasha Store"
+        },
+        "description": {
+          "es": "Explora nuestra selección recomendada de Belleza y Cuidado Personal con compra directa en Amazon.com.",
+          "en": "Explore our recommended selection of Beauty & Personal Care with direct links to Amazon.com."
+        }
+      },
+      "products": [
+        {
+          "id": "product-5",
+          "brand": "BIODANCE",
+          "categoryId": "belleza-y-cuidado-personal",
+          "imagePrimary": "/Imagenes/biodance-mascarilla-colageno-producto-final.png",
+          "imageSecondary": "/Imagenes/biodance-mascarilla-colageno-modelo-final.png",
+          "price": 23,
+          "currency": "USD",
+          "personalRating": 4.6,
+          "totalReviews": 2228,
+          "affiliateUrl": "https://amzn.to/4b3Dq44",
+          "isDemo": false,
+          "badge": {
+            "es": "#1 más vendido",
+            "en": "#1 Best Seller"
+          },
+          "slug": {
+            "es": "mascarilla-de-colageno-nocturna-biodance-bio-collagen",
+            "en": "biodance-bio-collagen-real-deep-mask"
+          },
+          "name": {
+            "es": "Mascarilla de Colágeno Nocturna BIODANCE Bio-Collagen",
+            "en": "BIODANCE Bio-Collagen Real Deep Mask"
+          },
+          "rawName": "BIODANCE Collagen Peptide Eye Patches, Anti Wrinkle & Smile Line Patches for Face, Under Eye Mask for Fine Lines & Eye Bags, Korean Skin Care (60 Count)",
+          "shortDescription": {
+            "es": "Parches para ojos BIODANCE con colágeno, péptidos y ácido hialurónico para complementar la rutina de cuidado del contorno de ojos. Están diseñados para aportar hidratación a la zona de ojeras y líneas finas, y pueden utilizarse también en líneas de expresión. El envase incluye 60 parches, equivalentes a 30 pares, para uso regular en casa.",
+            "en": "BIODANCE Bio-Collagen Real Deep Mask formulated with low-molecular collagen, galactomyces ferment filtrate, and hyaluronic acid. Designed for deep hydration, pore tightening, and skin elasticity improvement. Transparent overnight hydrogel mask turns clear as active ingredients absorb into the skin."
+          },
+          "fullDescription": {
+            "es": "He usado estos parches para ojos BIODANCE de forma constante y sí he notado una diferencia. La piel debajo de mis ojos se ve más hidratada, suave y con menos hinchazón, especialmente por las mañanas.\n\nAl aplicarlos, se sienten frescos y calmantes. Se mantienen bien en su lugar y no dejan residuos pegajosos.\n\nNo son una solución milagrosa de un día para otro, pero el uso regular hace la mayor diferencia. Mi zona de ojeras se ve más luminosa y descansada, y el maquillaje se aplica mucho mejor después.\n\nLos recomiendo si buscas unos parches para ojos fáciles de añadir a tu rutina de Skin Care y quieres hidratar la zona bajo los ojos con uso constante.",
+            "en": "This BIODANCE Bio-Collagen hydrogel mask is truly incredible! Leaving it on overnight or for a few hours transforms tired skin into a dewy, glowing complexion.\n\nAs your skin absorbs the collagen and hyaluronic acid, the mask turns completely transparent. My pores looked noticeably smaller, and my skin felt deeply hydrated and firm the next morning. A total viral skincare favorite for a reason!"
+          },
+          "summary": {
+            "es": "Mascarilla facial de hidrogel BIODANCE con colágeno para uso nocturno, hidratación profunda y cuidado de la piel.",
+            "en": "Overnight BIODANCE Bio-Collagen hydrogel mask for intense hydration, pore refining, and radiant skin elasticity."
+          },
+          "recommendedFor": {
+            "es": "Usuarios interesados en belleza y cuidado personal en EE.UU.",
+            "en": "Skincare lovers seeking deep hydration, pore minimization, and a dewy glass-skin glow."
+          },
+          "personalReview": {
+            "es": "He usado estos parches para ojos BIODANCE de forma constante y sí he notado una diferencia. La piel debajo de mis ojos se ve más hidratada, suave y con menos hinchazón, especialmente por las mañanas.\n\nAl aplicarlos, se sienten frescos y calmantes. Se mantienen bien en su lugar y no dejan residuos pegajosos.\n\nNo son una solución milagrosa de un día para otro, pero el uso regular hace la mayor diferencia. Mi zona de ojeras se ve más luminosa y descansada, y el maquillaje se aplica mucho mejor después.\n\nLos recomiendo si buscas unos parches para ojos fáciles de añadir a tu rutina de Skin Care y quieres hidratar la zona bajo los ojos con uso constante.",
+            "en": "This BIODANCE Bio-Collagen hydrogel mask is truly incredible! Leaving it on overnight or for a few hours transforms tired skin into a dewy, glowing complexion.\n\nAs your skin absorbs the collagen and hyaluronic acid, the mask turns completely transparent. My pores looked noticeably smaller, and my skin felt deeply hydrated and firm the next morning. A total viral skincare favorite for a reason!"
+          },
+          "features": {
+            "es": [
+              "Presentación: 60 unidades (30 pares)",
+              "Color: Colágeno",
+              "Con colágeno, péptidos y exosomas",
+              "Con cafeína y ácido hialurónico",
+              "Parches para ojeras, líneas finas y bolsas bajo los ojos",
+              "También pueden usarse en líneas de sonrisa, frente y cuello",
+              "Textura Diamond-Gel",
+              "Tecnología coreana de cuidado de la piel"
+            ],
+            "en": [
+              "Formulated with low-molecular-weight collagen & hyaluronic acid",
+              "Contains Galactomyces ferment filtrate for skin tone refining",
+              "Deep pore tightening and skin elasticity enhancement",
+              "Hypoallergenic formula suitable for sensitive skin",
+              "Hydrogel sheet turns transparent as ingredients absorb",
+              "Safe for overnight wear"
+            ]
+          },
+          "benefits": {
+            "es": [
+              "Sensación refrescante y calmante al aplicarlos.",
+              "Se mantienen bien en su lugar.",
+              "No dejan residuos pegajosos.",
+              "Con uso constante, ayudan a que la zona bajo los ojos se vea más hidratada y fresca."
+            ],
+            "en": [
+              "Delivers deep, long-lasting moisture balance",
+              "Visibly tightens enlarged pores and refines texture",
+              "Leaves skin plump, radiant, and glass-like",
+              "Non-irritating and gentle on sensitive barrier"
+            ]
+          },
+          "imageAlt": {
+            "primary": {
+              "es": "Mascarilla de Colágeno Nocturna BIODANCE Bio-Collagen",
+              "en": "BIODANCE Bio-Collagen Real Deep Mask"
+            },
+            "secondary": {
+              "es": "Mascarilla de Colágeno Nocturna BIODANCE Bio-Collagen - Modelo",
+              "en": "BIODANCE Bio-Collagen Real Deep Mask - Model"
+            }
+          }
+        },
+        {
+          "id": "product-6",
+          "brand": "Boka",
+          "categoryId": "belleza-y-cuidado-personal",
+          "imagePrimary": "/Imagenes/boka-pasta-dental-nano-hidroxiapatita-producto-final.png",
+          "imageSecondary": "/Imagenes/boka-pasta-dental-nano-hidroxiapatita-modelo-final.png",
+          "price": 11.62,
+          "currency": "USD",
+          "personalRating": 4.5,
+          "totalReviews": 58329,
+          "affiliateUrl": "https://amzn.to/44JTAMs",
+          "isDemo": false,
+          "badge": {
+            "es": "#1 más vendido",
+            "en": "#1 Best Seller"
+          },
+          "slug": {
+            "es": "pasta-dental-boka-sin-fluor-sabor-ela-mint",
+            "en": "boka-fluoride-free-ela-mint-toothpaste"
+          },
+          "name": {
+            "es": "Pasta Dental Boka sin Flúor (Sabor Ela Mint)",
+            "en": "Boka Fluoride-Free Ela Mint Toothpaste"
+          },
+          "rawName": "Boka Fluoride Free Toothpaste, Nano Hydroxyapatite Toothpaste, Appropriate for Sensitive Teeth - for Adult Oral Care - Ela Mint Flavor, 4 Fl Oz 1Pk",
+          "shortDescription": {
+            "es": "Pasta dental Boka Ela Mint sin flúor, formulada con nano-hidroxiapatita y pensada para el cuidado diario de dientes y encías sensibles. Su sabor a menta ofrece una sensación fresca sin ser demasiado intensa. También está libre de SLS, parabenos y sabores artificiales, por lo que es una alternativa para quienes buscan una pasta dental suave para su rutina de higiene oral.",
+            "en": "Boka fluoride-free Ela Mint toothpaste formulated with Nano-Hydroxyapatite (n-HA) to remineralize enamel and soothe tooth sensitivity. Free from SLS, parabens, artificial flavors, and harsh abrasives. Features a refreshing mint flavor for daily gentle oral care."
+          },
+          "fullDescription": {
+            "es": "Estoy muy contenta con esta pasta dental Boka. Tiene un sabor limpio y refrescante, sin ser demasiado fuerte, y deja mis dientes suaves y limpios después de cada cepillado.\n\nMe gusta que sea una pasta dental sin flúor y que sea suave para dientes y encías sensibles. La fórmula con nano-hidroxiapatita se siente cómoda para usar todos los días y no deja una sensación agresiva en la boca.\n\nLa textura es agradable, hace espuma ligera y ayuda a que la rutina de higiene oral sea más cómoda. El sabor Ela Mint deja una sensación fresca sin ser intensa.\n\nEl paquete de tres tiene muy buena relación calidad-precio y dura bastante tiempo. Es una buena opción para quien busca una pasta dental suave para uso diario. Sin duda la volvería a comprar.",
+            "en": "I am so impressed with Boka toothpaste! The Ela Mint flavor is clean, crisp, and refreshing without the harsh chemical burn of standard commercial toothpastes.\n\nThe Nano-Hydroxyapatite formula has made a noticeable difference for my tooth sensitivity. My teeth feel silky smooth after brushing, and knowing it's fluoride-free and SLS-free gives me total peace of mind. Excellent daily oral care choice!"
+          },
+          "summary": {
+            "es": "Pasta dental Boka sin flúor con nano-hidroxiapatita, sabor Ela Mint y fórmula para dientes sensibles.",
+            "en": "Fluoride-free Boka Ela Mint toothpaste powered by Nano-Hydroxyapatite for enamel support and sensitive teeth."
+          },
+          "recommendedFor": {
+            "es": "Usuarios interesados en belleza y cuidado personal en EE.UU.",
+            "en": "Individuals with sensitive teeth, enamel concerns, or those seeking clean, fluoride-free oral care."
+          },
+          "personalReview": {
+            "es": "Estoy muy contenta con esta pasta dental Boka. Tiene un sabor limpio y refrescante, sin ser demasiado fuerte, y deja mis dientes suaves y limpios después de cada cepillado.\n\nMe gusta que sea una pasta dental sin flúor y que sea suave para dientes y encías sensibles. La fórmula con nano-hidroxiapatita se siente cómoda para usar todos los días y no deja una sensación agresiva en la boca.\n\nLa textura es agradable, hace espuma ligera y ayuda a que la rutina de higiene oral sea más cómoda. El sabor Ela Mint deja una sensación fresca sin ser intensa.\n\nEl paquete de tres tiene muy buena relación calidad-precio y dura bastante tiempo. Es una buena opción para quien busca una pasta dental suave para uso diario. Sin duda la volvería a comprar.",
+            "en": "I am so impressed with Boka toothpaste! The Ela Mint flavor is clean, crisp, and refreshing without the harsh chemical burn of standard commercial toothpastes.\n\nThe Nano-Hydroxyapatite formula has made a noticeable difference for my tooth sensitivity. My teeth feel silky smooth after brushing, and knowing it's fluoride-free and SLS-free gives me total peace of mind. Excellent daily oral care choice!"
+          },
+          "features": {
+            "es": [
+              "Presentación: 4 fl oz",
+              "Sabor: Ela Mint",
+              "Para adultos",
+              "Forma: Pasta dental",
+              "Sin flúor",
+              "Sin sabores artificiales",
+              "Sin parabenos",
+              "Sin lauril sulfato de sodio",
+              "Contiene nano-hidroxiapatita",
+              "Textura suave y de baja espuma"
+            ],
+            "en": [
+              "Powered by Nano-Hydroxyapatite (n-HA) enamel mineral alternative",
+              "100% Fluoride-free, SLS-free, & Paraben-free formula",
+              "Refreshing Ela Mint flavor with natural green tea extract",
+              "Safe, non-toxic, and biocompatible ingredients",
+              "Formulated for sensitive teeth and gum comfort",
+              "Net Wt. 4 Fl Oz (113g)"
+            ]
+          },
+          "benefits": {
+            "es": [
+              "Sabor fresco y suave.",
+              "Deja los dientes limpios y suaves.",
+              "Fórmula sin flúor para dientes y encías sensibles.",
+              "El paquete de tres ofrece buen valor y dura bastante."
+            ],
+            "en": [
+              "Reduces tooth sensitivity naturally",
+              "Gentle non-abrasive smooth cleaning",
+              "Fresh minty breath without harsh chemicals",
+              "Safe for whole family daily use"
+            ]
+          },
+          "imageAlt": {
+            "primary": {
+              "es": "Pasta Dental Boka sin Flúor (Sabor Ela Mint)",
+              "en": "Boka Fluoride-Free Ela Mint Toothpaste"
+            },
+            "secondary": {
+              "es": "Pasta Dental Boka sin Flúor (Sabor Ela Mint) - Modelo",
+              "en": "Boka Fluoride-Free Ela Mint Toothpaste - Model"
+            }
+          }
+        },
+        {
+          "id": "product-7",
+          "brand": "BIODANCE",
+          "categoryId": "belleza-y-cuidado-personal",
+          "imagePrimary": "/Imagenes/biodance-parches-ojos-colageno-producto-final.png",
+          "imageSecondary": "/Imagenes/biodance-parches-ojos-colageno-modelo-final.png",
+          "price": 23,
+          "currency": "USD",
+          "personalRating": 4.6,
+          "totalReviews": 2228,
+          "affiliateUrl": "https://amzn.to/4b3Dq44",
+          "isDemo": false,
+          "badge": {
+            "es": "#1 más vendido",
+            "en": "#1 Best Seller"
+          },
+          "slug": {
+            "es": "parches-de-colageno-para-ojos-biodance-60-uds",
+            "en": "biodance-collagen-peptide-eye-patches-60-ct"
+          },
+          "name": {
+            "es": "Parches de Colágeno para Ojos BIODANCE (60 uds)",
+            "en": "BIODANCE Collagen Peptide Eye Patches (60 ct)"
+          },
+          "rawName": "BIODANCE Collagen Peptide Eye Patches, Anti Wrinkle & Smile Line Patches for Face, Under Eye Mask for Fine Lines & Eye Bags, Korean Skin Care (60 Count)",
+          "shortDescription": {
+            "es": "Parches para ojos BIODANCE con colágeno, péptidos y ácido hialurónico para complementar la rutina de cuidado del contorno de ojos. Están diseñados para aportar hidratación a la zona de ojeras y líneas finas, y pueden utilizarse también en líneas de expresión. El envase incluye 60 parches, equivalentes a 30 pares, para uso regular en casa.",
+            "en": "BIODANCE Collagen Peptide hydrogel eye patches (60 count / 30 pairs) designed to target under-eye dark circles, fine lines, puffiness, and dryness. Infused with low-molecular collagen, multi-peptides, and hyaluronic acid to firm and brighten delicate under-eye skin."
+          },
+          "fullDescription": {
+            "es": "He usado estos parches para ojos BIODANCE de forma constante y sí he notado una diferencia. La piel debajo de mis ojos se ve más hidratada, suave y con menos hinchazón, especialmente por las mañanas.\n\nAl aplicarlos, se sienten frescos y calmantes. Se mantienen bien en su lugar y no dejan residuos pegajosos.\n\nNo son una solución milagrosa de un día para otro, pero el uso regular hace la mayor diferencia. Mi zona de ojeras se ve más luminosa y descansada, y el maquillaje se aplica mucho mejor después.\n\nLos recomiendo si buscas unos parches para ojos fáciles de añadir a tu rutina de Skin Care y quieres hidratar la zona bajo los ojos con uso constante.",
+            "en": "These BIODANCE under-eye patches are a total lifesaver for tired eyes! They fit comfortably without slipping down your face, delivering an instant cooling and soothing sensation.\n\nAfter 20-30 minutes, my under-eye area looks noticeably brighter, plumper, and refreshed. They smooth out fine dryness lines perfectly before makeup application. Highly recommend adding these to your self-care routine!"
+          },
+          "summary": {
+            "es": "Parches para ojos BIODANCE con colágeno y péptidos para la zona de las ojeras, líneas finas y bolsas bajo los ojos.",
+            "en": "BIODANCE hydrogel eye patches with collagen peptides and hyaluronic acid to de-puff, firm, and brighten under-eyes."
+          },
+          "recommendedFor": {
+            "es": "Usuarios interesados en belleza y cuidado personal en EE.UU.",
+            "en": "Anyone looking to reduce under-eye puffiness, dark circles, fine lines, and morning eye fatigue."
+          },
+          "personalReview": {
+            "es": "He usado estos parches para ojos BIODANCE de forma constante y sí he notado una diferencia. La piel debajo de mis ojos se ve más hidratada, suave y con menos hinchazón, especialmente por las mañanas.\n\nAl aplicarlos, se sienten frescos y calmantes. Se mantienen bien en su lugar y no dejan residuos pegajosos.\n\nNo son una solución milagrosa de un día para otro, pero el uso regular hace la mayor diferencia. Mi zona de ojeras se ve más luminosa y descansada, y el maquillaje se aplica mucho mejor después.\n\nLos recomiendo si buscas unos parches para ojos fáciles de añadir a tu rutina de Skin Care y quieres hidratar la zona bajo los ojos con uso constante.",
+            "en": "These BIODANCE under-eye patches are a total lifesaver for tired eyes! They fit comfortably without slipping down your face, delivering an instant cooling and soothing sensation.\n\nAfter 20-30 minutes, my under-eye area looks noticeably brighter, plumper, and refreshed. They smooth out fine dryness lines perfectly before makeup application. Highly recommend adding these to your self-care routine!"
+          },
+          "features": {
+            "es": [
+              "Presentación: 60 unidades (30 pares)",
+              "Color: Colágeno",
+              "Con colágeno, péptidos y exosomas",
+              "Con cafeína y ácido hialurónico",
+              "Parches para ojeras, líneas finas y bolsas bajo los ojos",
+              "También pueden usarse en líneas de sonrisa, frente y cuello",
+              "Textura Diamond-Gel",
+              "Tecnología coreana de cuidado de la piel"
+            ],
+            "en": [
+              "60 Hydrogel Patches (30 Pairs total)",
+              "Infused with Low-Molecular Collagen & Multi-Peptide Complex",
+              "Hyaluronic Acid for intense under-eye hydration",
+              "Cooling hydrogel texture adheres securely without slipping",
+              "Targets dark circles, puffiness, and fine crow's feet lines",
+              "Hypoallergenic and dermatologist-tested"
+            ]
+          },
+          "benefits": {
+            "es": [
+              "Sensación refrescante y calmante al aplicarlos.",
+              "Se mantienen bien en su lugar.",
+              "No dejan residuos pegajosos.",
+              "Con uso constante, ayudan a que la zona bajo los ojos se vea más hidratada y fresca."
+            ],
+            "en": [
+              "Instant cooling de-puffing relief for tired morning eyes",
+              "Visibly brightens dark under-eye shadows",
+              "Smooths fine lines for flawless makeup application",
+              "Generous 60-patch jar offers long-lasting value"
+            ]
+          },
+          "imageAlt": {
+            "primary": {
+              "es": "Parches de Colágeno para Ojos BIODANCE (60 uds)",
+              "en": "BIODANCE Collagen Peptide Eye Patches (60 ct)"
+            },
+            "secondary": {
+              "es": "Parches de Colágeno para Ojos BIODANCE (60 uds) - Modelo",
+              "en": "BIODANCE Collagen Peptide Eye Patches (60 ct) - Model"
+            }
+          }
+        },
+        {
+          "id": "product-8",
+          "brand": "CeraVe",
+          "categoryId": "belleza-y-cuidado-personal",
+          "imagePrimary": "/Imagenes/cerave-crema-nocturna-renovadora-producto-final.png",
+          "imageSecondary": "/Imagenes/cerave-crema-nocturna-renovadora-modelo-final.png",
+          "price": 15.44,
+          "currency": "USD",
+          "personalRating": 4.6,
+          "totalReviews": 56741,
+          "affiliateUrl": "https://amzn.to/3TS9yBF",
+          "isDemo": false,
+          "badge": {
+            "es": "#1 más vendido",
+            "en": "#1 Best Seller"
+          },
+          "slug": {
+            "es": "crema-facial-nocturna-renovadora-cerave",
+            "en": "cerave-skin-renewing-night-cream"
+          },
+          "name": {
+            "es": "Crema Facial Nocturna Renovadora CeraVe",
+            "en": "CeraVe Skin Renewing Night Cream"
+          },
+          "rawName": "CeraVe Skin Renewing Night Cream, Peptide Complex, Hyaluronic Acid & Ceramide Moisturizer for Face, 1.7 Ounce",
+          "shortDescription": {
+            "es": "Crema nocturna CeraVe Skin Renewing Night Cream con complejo de péptidos, ácido hialurónico, niacinamida y tres ceramidas esenciales. Está formulada sin fragancia y es no comedogénica, por lo que puede incorporarse a una rutina de hidratación facial para piel seca, sensible o madura. Su textura cremosa ayuda a mantener la humedad y a cuidar la barrera natural de la piel.",
+            "en": "CeraVe Skin Renewing Night Cream formulated with biomimetic peptides, hyaluronic acid, and 3 essential ceramides (1, 3, 6-II). Designed to hydrate, restore the skin barrier, and renew tired skin overnight without clogging pores."
+          },
+          "fullDescription": {
+            "es": "No necesitas una crema costosa para tener una piel suave, luminosa y bien hidratada. Tengo la piel muy seca y la crema nocturna CeraVe se ha convertido en una parte importante de mi rutina.\n\nAunque está pensada para usar de noche, también la uso durante el día cuando mi piel necesita más hidratación. Es espesa en el frasco, pero se absorbe bien y no deja sensación grasosa. Funciona sola o debajo del maquillaje.\n\nMe gusta que no tenga fragancia y que sea suave para piel sensible. No me irrita ni me causa brotes. Después de varias semanas, noté la piel más suave, descansada y con las líneas finas menos visibles.\n\nLa combinación de péptidos, ceramidas y ácido hialurónico ofrece ingredientes que suelen encontrarse en cremas más caras, pero a un precio accesible.\n\nUn detalle: el frasco no incluye sello interno, algo normal para este producto.\n\nLa recomiendo si buscas una crema hidratante para piel seca o madura. Es una de las mejores opciones por su precio y resultados.",
+            "en": "CeraVe Skin Renewing Night Cream is a staple in my nighttime routine! The texture is rich and deeply moisturizing, yet it absorbs beautifully without feeling greasy or heavy on the skin.\n\nMy skin feels incredibly soft, plump, and calm every morning. The ceramides and peptides work wonders to lock in moisture and soothe any dry patches. Fragrance-free and gentle on sensitive skin!"
+          },
+          "summary": {
+            "es": "Crema nocturna CeraVe con péptidos, ácido hialurónico y tres ceramidas esenciales para hidratar el rostro.",
+            "en": "Rich CeraVe night cream with biomimetic peptides, hyaluronic acid, and 3 essential ceramides for barrier restoration."
+          },
+          "recommendedFor": {
+            "es": "Usuarios interesados en belleza y cuidado personal en EE.UU.",
+            "en": "Individuals seeking deep overnight hydration, anti-aging barrier support, and smooth skin texture."
+          },
+          "personalReview": {
+            "es": "No necesitas una crema costosa para tener una piel suave, luminosa y bien hidratada. Tengo la piel muy seca y la crema nocturna CeraVe se ha convertido en una parte importante de mi rutina.\n\nAunque está pensada para usar de noche, también la uso durante el día cuando mi piel necesita más hidratación. Es espesa en el frasco, pero se absorbe bien y no deja sensación grasosa. Funciona sola o debajo del maquillaje.\n\nMe gusta que no tenga fragancia y que sea suave para piel sensible. No me irrita ni me causa brotes. Después de varias semanas, noté la piel más suave, descansada y con las líneas finas menos visibles.\n\nLa combinación de péptidos, ceramidas y ácido hialurónico ofrece ingredientes que suelen encontrarse en cremas más caras, pero a un precio accesible.\n\nUn detalle: el frasco no incluye sello interno, algo normal para este producto.\n\nLa recomiendo si buscas una crema hidratante para piel seca o madura. Es una de las mejores opciones por su precio y resultados.",
+            "en": "CeraVe Skin Renewing Night Cream is a staple in my nighttime routine! The texture is rich and deeply moisturizing, yet it absorbs beautifully without feeling greasy or heavy on the skin.\n\nMy skin feels incredibly soft, plump, and calm every morning. The ceramides and peptides work wonders to lock in moisture and soothe any dry patches. Fragrance-free and gentle on sensitive skin!"
+          },
+          "features": {
+            "es": [
+              "Presentación: 1.7 oz (48 g)",
+              "Volumen: 0.05 litros",
+              "Dimensiones: 8 x 2.63 x 2.19 pulgadas",
+              "Para adultos",
+              "No comedogénica",
+              "Complejo de péptidos",
+              "Con ácido hialurónico",
+              "Con tres ceramidas esenciales (1, 3 y 6-II)",
+              "Sin fragancia",
+              "Fórmula no irritante"
+            ],
+            "en": [
+              "Formulated with Biomimetic Peptides to refresh tired skin",
+              "Contains 3 Essential Ceramides (1, 3, 6-II) to restore skin barrier",
+              "Hyaluronic Acid for 24-hour moisture retention",
+              "MVE Technology for controlled time-release hydration",
+              "Fragrance-free, non-comedogenic, and non-irritating",
+              "Developed with Dermatologists"
+            ]
+          },
+          "benefits": {
+            "es": [
+              "Hidratación profunda sin sensación grasosa.",
+              "Fórmula sin fragancia para piel sensible.",
+              "Con péptidos, ceramidas y ácido hialurónico.",
+              "Buena relación calidad-precio."
+            ],
+            "en": [
+              "Deeply hydrates and plumps skin overnight",
+              "Reinforces natural skin barrier function",
+              "Fragrance-free formula ideal for sensitive skin",
+              "Leaves skin feeling velvety soft without greasy residue"
+            ]
+          },
+          "imageAlt": {
+            "primary": {
+              "es": "Crema Facial Nocturna Renovadora CeraVe",
+              "en": "CeraVe Skin Renewing Night Cream"
+            },
+            "secondary": {
+              "es": "Crema Facial Nocturna Renovadora CeraVe - Modelo",
+              "en": "CeraVe Skin Renewing Night Cream - Model"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "salud-y-hogar",
+      "slug": {
+        "es": "salud-y-hogar",
+        "en": "salud-y-hogar"
+      },
+      "name": {
+        "es": "Salud y Hogar",
+        "en": "Health & Household"
+      },
+      "description": {
+        "es": "Selección recomendada de productos en la categoría Salud y Hogar para EE.UU.",
+        "en": "Curated selection of recommended products in Health & Household for US shoppers."
+      },
+      "seo": {
+        "title": {
+          "es": "Salud y Hogar | Sasha Store",
+          "en": "Health & Household | Sasha Store"
+        },
+        "description": {
+          "es": "Explora nuestra selección recomendada de Salud y Hogar con compra directa en Amazon.com.",
+          "en": "Explore our recommended selection of Health & Household with direct links to Amazon.com."
+        }
+      },
+      "products": [
+        {
+          "id": "product-9",
+          "brand": "KardiaMobile",
+          "categoryId": "salud-y-hogar",
+          "imagePrimary": "/Imagenes/kardiamobile-monitor-ekg-producto-final.png",
+          "imageSecondary": "/Imagenes/kardiamobile-monitor-ekg-modelo-final.png",
+          "price": 79,
+          "currency": "USD",
+          "personalRating": 4.4,
+          "totalReviews": 82882,
+          "affiliateUrl": "https://amzn.to/4hr1eCH",
+          "isDemo": false,
+          "badge": {
+            "es": "#1 más vendido",
+            "en": "#1 Best Seller"
+          },
+          "slug": {
+            "es": "monitor-ekg-personal-kardiamobile-aprobado-fda",
+            "en": "kardiamobile-personal-ekg-heart-monitor"
+          },
+          "name": {
+            "es": "Monitor EKG Personal KardiaMobile (Aprobado FDA)",
+            "en": "KardiaMobile Personal EKG Heart Monitor"
+          },
+          "rawName": "KardiaMobile 1-Lead EKG Monitor, Medical-Grade FDA-Cleared Personal Heart Monitor, Detects Normal, AFib & Arrhythmias, 30 Second Results, Works with Most Smartphones, HSA & FSA Eligible",
+          "shortDescription": {
+            "es": "KardiaMobile es un monitor EKG personal de una derivación compatible con la mayoría de los teléfonos inteligentes. Registra un electrocardiograma en aproximadamente 30 segundos y permite guardar o compartir las lecturas desde la aplicación. Es compacto, portátil y elegible para HSA/FSA. No detecta ataques cardíacos, no sustituye la atención médica y no se recomienda para personas con dispositivos cardíacos implantados.",
+            "en": "KardiaMobile FDA-cleared personal 6-lead / 1-lead EKG heart monitor. Detects Atrial Fibrillation (AFib), Bradycardia, Tachycardia, and Sinus Rhythm in just 30 seconds. Compact, pocket-sized device that connects via Bluetooth to your smartphone without wires or gels."
+          },
+          "fullDescription": {
+            "es": "Estoy muy contenta con el monitor EKG KardiaMobile de una derivación. Al principio, conseguir una lectura correcta durante 30 segundos requiere algo de práctica, por lo que recomiendo familiarizarse con el dispositivo antes de necesitarlo.\n\nUna vez que aprendes a usarlo, funciona como se espera. La aplicación es fácil de usar y permite registrar el ritmo cardíaco y ver las lecturas. El tamaño compacto hace que sea fácil de llevar en un bolsillo y no requiere suscripción para el uso básico.\n\nEs una buena opción para quienes buscan un monitor cardíaco portátil. No reemplaza la atención médica ni está diseñado para detectar un ataque cardíaco; ante síntomas preocupantes o una emergencia, busca atención médica.",
+            "en": "The KardiaMobile EKG monitor gives incredible peace of mind! It is tiny, easy to carry everywhere, and records a medical-grade EKG reading in just 30 seconds by resting your fingers on the sensors.\n\nThe app generates instant, clear results and allows you to email PDF EKG reports directly to your physician. Simple to set up and straightforward to use. An invaluable health device!"
+          },
+          "summary": {
+            "es": "Monitor EKG personal KardiaMobile de una derivación, con resultados en 30 segundos y compatibilidad con la mayoría de los teléfonos inteligentes.",
+            "en": "FDA-cleared KardiaMobile personal EKG monitor for instant 30-second heart rhythm detection via smartphone."
+          },
+          "recommendedFor": {
+            "es": "Usuarios interesados en salud y hogar en EE.UU.",
+            "en": "Individuals monitoring heart health, AFib history, or seeking FDA-cleared EKG tracking at home."
+          },
+          "personalReview": {
+            "es": "Estoy muy contenta con el monitor EKG KardiaMobile de una derivación. Al principio, conseguir una lectura correcta durante 30 segundos requiere algo de práctica, por lo que recomiendo familiarizarse con el dispositivo antes de necesitarlo.\n\nUna vez que aprendes a usarlo, funciona como se espera. La aplicación es fácil de usar y permite registrar el ritmo cardíaco y ver las lecturas. El tamaño compacto hace que sea fácil de llevar en un bolsillo y no requiere suscripción para el uso básico.\n\nEs una buena opción para quienes buscan un monitor cardíaco portátil. No reemplaza la atención médica ni está diseñado para detectar un ataque cardíaco; ante síntomas preocupantes o una emergencia, busca atención médica.",
+            "en": "The KardiaMobile EKG monitor gives incredible peace of mind! It is tiny, easy to carry everywhere, and records a medical-grade EKG reading in just 30 seconds by resting your fingers on the sensors.\n\nThe app generates instant, clear results and allows you to email PDF EKG reports directly to your physician. Simple to set up and straightforward to use. An invaluable health device!"
+          },
+          "features": {
+            "es": [
+              "Color: Negro",
+              "Material: Plástico",
+              "Compatible con teléfonos inteligentes",
+              "Pantalla: 0.96 pulgadas",
+              "Dimensiones: 3.28 x 1.25 x 0.2 pulgadas",
+              "Aprobado por la FDA",
+              "Detecta ritmo sinusal normal, fibrilación auricular, taquicardia y bradicardia",
+              "Batería CR2016 reemplazable"
+            ],
+            "en": [
+              "FDA-cleared personal medical-grade EKG monitor",
+              "Detects AFib, Bradycardia, Tachycardia, and Normal Sinus Rhythm in 30 seconds",
+              "Works with most iOS and Android smartphones via Bluetooth",
+              "No wires, patches, or conductive gels required",
+              "Generates shareable PDF EKG reports for your doctor",
+              "Compact pocket-sized design"
+            ]
+          },
+          "benefits": {
+            "es": [
+              "Compacto y fácil de llevar",
+              "La aplicación permite registrar lecturas",
+              "No requiere suscripción para el uso básico"
+            ],
+            "en": [
+              "Instant cardiac peace of mind anywhere, anytime",
+              "Easy EKG sharing with healthcare providers",
+              "Simple 30-second touch operation",
+              "Clinically validated accuracy"
+            ]
+          },
+          "imageAlt": {
+            "primary": {
+              "es": "Monitor EKG Personal KardiaMobile (Aprobado FDA)",
+              "en": "KardiaMobile Personal EKG Heart Monitor"
+            },
+            "secondary": {
+              "es": "Monitor EKG Personal KardiaMobile (Aprobado FDA) - Modelo",
+              "en": "KardiaMobile Personal EKG Heart Monitor - Model"
+            }
+          }
+        },
+        {
+          "id": "product-10",
+          "brand": "Amazon",
+          "categoryId": "salud-y-hogar",
+          "imagePrimary": "/Imagenes/echo-dot-altavoz-inteligente-producto-final.png",
+          "imageSecondary": "/Imagenes/echo-dot-altavoz-inteligente-modelo-final.png",
+          "price": 49.99,
+          "currency": "USD",
+          "personalRating": 4.7,
+          "totalReviews": 196343,
+          "affiliateUrl": "https://amzn.to/4wrcdB2",
+          "isDemo": false,
+          "badge": {
+            "es": "#1 más vendido",
+            "en": "#1 Best Seller"
+          },
+          "slug": {
+            "es": "altavoz-inteligente-amazon-echo-dot-con-alexa",
+            "en": "amazon-echo-dot-smart-speaker-with-alexa"
+          },
+          "name": {
+            "es": "Altavoz Inteligente Amazon Echo Dot con Alexa",
+            "en": "Amazon Echo Dot Smart Speaker with Alexa"
+          },
+          "rawName": "Amazon Echo Dot (newest model) - Vibrant sounding speaker, Designed for Alexa+, Great for bedrooms, dining rooms and offices, Glacier White",
+          "shortDescription": {
+            "es": "Amazon Echo Dot es un altavoz inteligente compacto con Alexa+, diseñado para reproducir música, podcasts y audiolibros mediante comandos de voz. También permite crear alarmas, recordatorios y controlar dispositivos compatibles del hogar inteligente. Cuenta con sonido frontal, conectividad Wi-Fi de doble banda y Bluetooth. Su tamaño es adecuado para dormitorios, cocinas, oficinas y otros espacios pequeños del hogar.",
+            "en": "Amazon Echo Dot (5th Gen) smart speaker featuring vibrant sound, clear vocals, and deep bass powered by Alexa. Controls smart home devices, streams music from Spotify & Apple Music, sets timers, checks weather, and assists with daily routines."
+          },
+          "fullDescription": {
+            "es": "El Echo Dot fue muy fácil de configurar y funciona sin problemas desde el primer día. La conexión con la aplicación fue rápida y las instrucciones resultaron claras, incluso para alguien que no usa muchos dispositivos inteligentes.\n\nLa calidad de sonido es impresionante para un altavoz tan pequeño: se escucha bien para música, podcasts y audiolibros en una habitación. Alexa responde rápido a los comandos de voz y resulta muy útil para consultas rápidas y tareas diarias.\n\nLo uso para escuchar música, poner alarmas, crear recordatorios y controlar dispositivos compatibles del hogar inteligente. Su tamaño compacto permite colocarlo fácilmente en una mesa de noche, escritorio o cocina.\n\nEn general, el Echo Dot ofrece funciones útiles, buen sonido y una excelente relación calidad-precio. Lo recomiendo como primer altavoz inteligente o para añadir Alexa a otra habitación de la casa.",
+            "en": "The Echo Dot 5th Gen is a major upgrade! The audio output is surprisingly rich and loud for such a compact sphere design, with clear vocals and punchy bass.\n\nAlexa responds instantly to voice requests for playing music, setting alarms, checking news, or controlling smart light bulbs. Setup takes under two minutes via the Alexa app. An essential smart home companion!"
+          },
+          "summary": {
+            "es": "Altavoz inteligente Echo Dot con Alexa+, sonido vibrante y control por voz para música, recordatorios y dispositivos compatibles del hogar inteligente.",
+            "en": "Compact Echo Dot (5th Gen) smart speaker with Alexa for voice-controlled music, smart home automation, and daily help."
+          },
+          "recommendedFor": {
+            "es": "Usuarios interesados en salud y hogar en EE.UU.",
+            "en": "Anyone building a smart home, looking for a high-quality desktop speaker, or wanting hands-free Alexa help."
+          },
+          "personalReview": {
+            "es": "El Echo Dot fue muy fácil de configurar y funciona sin problemas desde el primer día. La conexión con la aplicación fue rápida y las instrucciones resultaron claras, incluso para alguien que no usa muchos dispositivos inteligentes.\n\nLa calidad de sonido es impresionante para un altavoz tan pequeño: se escucha bien para música, podcasts y audiolibros en una habitación. Alexa responde rápido a los comandos de voz y resulta muy útil para consultas rápidas y tareas diarias.\n\nLo uso para escuchar música, poner alarmas, crear recordatorios y controlar dispositivos compatibles del hogar inteligente. Su tamaño compacto permite colocarlo fácilmente en una mesa de noche, escritorio o cocina.\n\nEn general, el Echo Dot ofrece funciones útiles, buen sonido y una excelente relación calidad-precio. Lo recomiendo como primer altavoz inteligente o para añadir Alexa a otra habitación de la casa.",
+            "en": "The Echo Dot 5th Gen is a major upgrade! The audio output is surprisingly rich and loud for such a compact sphere design, with clear vocals and punchy bass.\n\nAlexa responds instantly to voice requests for playing music, setting alarms, checking news, or controlling smart light bulbs. Setup takes under two minutes via the Alexa app. An essential smart home companion!"
+          },
+          "features": {
+            "es": [
+              "Color: Blanco glaciar",
+              "Altavoz frontal de 1.7 pulgadas",
+              "Wi-Fi de doble banda (2.4 y 5 GHz)",
+              "Bluetooth",
+              "Arreglo de 4 micrófonos",
+              "Adaptador de 15 W incluido",
+              "Dimensiones: 3.9 x 3.9 x 3.5 pulgadas",
+              "Peso: 10.6 oz",
+              "Compatible con Alexa+"
+            ],
+            "en": [
+              "5th Generation upgraded audio architecture with deeper bass & clearer vocals",
+              "Built-in Alexa voice assistant for hands-free control",
+              "Stream music from Amazon Music, Spotify, Apple Music, and Pandora",
+              "Smart home control for lights, thermostats, and locks",
+              "Tap gesture controls to pause music or snooze alarms",
+              "Built-in privacy controls including microphone off button"
+            ]
+          },
+          "benefits": {
+            "es": [
+              "Configuración sencilla",
+              "Buena calidad de sonido para su tamaño",
+              "Alexa responde rápido a comandos de voz",
+              "Útil para música, recordatorios y hogar inteligente"
+            ],
+            "en": [
+              "Rich, room-filling sound in a sleek compact footprint",
+              "Seamless voice automation for daily tasks and reminders",
+              "Easy integration with smart home ecosystems",
+              "Quick, intuitive app setup"
+            ]
+          },
+          "imageAlt": {
+            "primary": {
+              "es": "Altavoz Inteligente Amazon Echo Dot con Alexa",
+              "en": "Amazon Echo Dot Smart Speaker with Alexa"
+            },
+            "secondary": {
+              "es": "Altavoz Inteligente Amazon Echo Dot con Alexa - Modelo",
+              "en": "Amazon Echo Dot Smart Speaker with Alexa - Model"
+            }
+          }
+        },
+        {
+          "id": "product-11",
+          "brand": "TrendPlain",
+          "categoryId": "salud-y-hogar",
+          "imagePrimary": "/Imagenes/trendplain-dispensador-aceite-producto-final.png",
+          "imageSecondary": "/Imagenes/trendplain-dispensador-aceite-modelo-final.png",
+          "price": 7.99,
+          "currency": "USD",
+          "personalRating": 4.6,
+          "totalReviews": 43559,
+          "affiliateUrl": "https://amzn.to/4yVcDBl",
+          "isDemo": false,
+          "badge": {
+            "es": "#1 más vendido",
+            "en": "#1 Best Seller"
+          },
+          "slug": {
+            "es": "dispensador-rociador-de-aceite-trendplain-470-ml",
+            "en": "trendplain-glass-olive-oil-sprayer-dispenser-16-oz"
+          },
+          "name": {
+            "es": "Dispensador y Rociador de Aceite TrendPlain (470 ml)",
+            "en": "TrendPlain Glass Olive Oil Sprayer & Dispenser (16 oz)"
+          },
+          "rawName": "TrendPlain 16 oz/470 ml Glass Olive Oil Sprayer for Cooking – 2 in 1 Olive Oil Dispenser Bottle for Kitchen Gadgets and Air Fryer Accessories, Salad, BBQ - Black",
+          "shortDescription": {
+            "es": "Dispensador de aceite TrendPlain de vidrio con capacidad de 470 ml, diseñado con funciones de rociado y vertido para cocinar con mayor control. Es útil para freidora de aire, ensaladas, parrilla, sartén y recetas diarias con aceite de oliva, aguacate u otros aceites de cocina. Incluye escala de medición visible y una boquilla para aplicar una niebla fina o un vertido controlado.",
+            "en": "Trendplain 16 oz (470 ml) 2-in-1 glass olive oil sprayer and dispenser bottle. Features an ergonomic trigger for fine mist spraying or direct pouring. Made of food-grade heat-resistant glass and BPA-free materials, ideal for cooking, air frying, salad dressing, and grilling."
+          },
+          "fullDescription": {
+            "es": "Buscaba una forma más fácil de cocinar y controlar el uso de aceite en casa, y este dispensador TrendPlain ha sido una muy buena opción. Usamos mucho aceite de oliva y de aguacate.\n\nLa función de rociado es excelente para la freidora de aire, ensaladas o para engrasar ligeramente una sartén. Produce una niebla uniforme y ayuda a usar menos aceite que al verter directamente desde una botella grande.\n\nHasta ahora no hemos tenido obstrucciones ni problemas con el mecanismo. Es un utensilio de cocina práctico que usamos todos los días y recomiendo para quienes cocinan con freidora de aire o preparan muchas ensaladas.",
+            "en": "This Trendplain oil sprayer and dispenser is fantastic! Having the dual capability to pour oil smoothly or spray a fine uniform mist makes cooking so much easier and cleaner.\n\nThe 16 oz glass bottle is wide-mouth for easy refills, and it doesn't leak or clog like cheaper plastic sprayers. Perfect for air frying, roasting veggies, and controlling oil usage. Excellent kitchen tool!"
+          },
+          "summary": {
+            "es": "Dispensador de aceite TrendPlain de vidrio de 470 ml con funciones de rociado y vertido para cocina, freidora de aire, ensaladas y parrilla.",
+            "en": "Dual-function 16 oz glass olive oil sprayer and dispenser bottle for air frying, cooking, and salad prep."
+          },
+          "recommendedFor": {
+            "es": "Usuarios interesados en salud y hogar en EE.UU.",
+            "en": "Home cooks, air fryer owners, and anyone wanting controlled oil spraying for healthy meal prep."
+          },
+          "personalReview": {
+            "es": "Buscaba una forma más fácil de cocinar y controlar el uso de aceite en casa, y este dispensador TrendPlain ha sido una muy buena opción. Usamos mucho aceite de oliva y de aguacate.\n\nLa función de rociado es excelente para la freidora de aire, ensaladas o para engrasar ligeramente una sartén. Produce una niebla uniforme y ayuda a usar menos aceite que al verter directamente desde una botella grande.\n\nHasta ahora no hemos tenido obstrucciones ni problemas con el mecanismo. Es un utensilio de cocina práctico que usamos todos los días y recomiendo para quienes cocinan con freidora de aire o preparan muchas ensaladas.",
+            "en": "This Trendplain oil sprayer and dispenser is fantastic! Having the dual capability to pour oil smoothly or spray a fine uniform mist makes cooking so much easier and cleaner.\n\nThe 16 oz glass bottle is wide-mouth for easy refills, and it doesn't leak or clog like cheaper plastic sprayers. Perfect for air frying, roasting veggies, and controlling oil usage. Excellent kitchen tool!"
+          },
+          "features": {
+            "es": [
+              "Color: Negro",
+              "Material: Vidrio",
+              "Capacidad: 470 ml",
+              "Uso recomendado: Cocina",
+              "Dispensado dual: rociado y vertido",
+              "Boquilla para niebla fina o chorro continuo",
+              "Cada rociado dispensa 0.15 g de aceite",
+              "Vidrio sin BPA",
+              "Resistente al calor"
+            ],
+            "en": [
+              "Dual Function: Spray fine mist or pour oil stream from one spout",
+              "Large Capacity: 16 oz / 470 ml thick glass bottle",
+              "Food-Grade & BPA-free lead-free glass construction",
+              "Ergonomic trigger handle for effortless pressure spraying",
+              "Wide neck opening for mess-free refilling without funnels",
+              "Drip-free spout design prevents oil buildup"
+            ]
+          },
+          "benefits": {
+            "es": [
+              "El rociado cubre de forma uniforme",
+              "Útil para freidora de aire, ensaladas y sartenes",
+              "Ayuda a controlar la cantidad de aceite",
+              "Uso diario práctico"
+            ],
+            "en": [
+              "Even mist coverage uses up to 75% less oil for healthier cooking",
+              "Ideal for air fryers, skillet cooking, salads, and barbecues",
+              "Durable glass construction easy to clean and dishwasher safe",
+              "No clogging or messy leaks"
+            ]
+          },
+          "imageAlt": {
+            "primary": {
+              "es": "Dispensador y Rociador de Aceite TrendPlain (470 ml)",
+              "en": "TrendPlain Glass Olive Oil Sprayer & Dispenser (16 oz)"
+            },
+            "secondary": {
+              "es": "Dispensador y Rociador de Aceite TrendPlain (470 ml) - Modelo",
+              "en": "TrendPlain Glass Olive Oil Sprayer & Dispenser (16 oz) - Model"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "office-equipment-supplies",
+      "slug": {
+        "es": "office-equipment-supplies",
+        "en": "office-equipment-supplies"
+      },
+      "name": {
+        "es": "Oficina y Papelería",
+        "en": "Office Equipment & Supplies"
+      },
+      "description": {
+        "es": "Selección recomendada de productos en la categoría Oficina y Papelería para EE.UU.",
+        "en": "Curated selection of recommended products in Office Equipment & Supplies for US shoppers."
+      },
+      "seo": {
+        "title": {
+          "es": "Oficina y Papelería | Sasha Store",
+          "en": "Office Equipment & Supplies | Sasha Store"
+        },
+        "description": {
+          "es": "Explora nuestra selección recomendada de Oficina y Papelería con compra directa en Amazon.com.",
+          "en": "Explore our recommended selection of Office Equipment & Supplies with direct links to Amazon.com."
+        }
+      },
+      "products": [
+        {
+          "id": "product-12",
+          "brand": "SwiHauk",
+          "categoryId": "office-equipment-supplies",
+          "imagePrimary": "/Imagenes/swihauk-grapadora-metalica-producto-final.png",
+          "imageSecondary": "/Imagenes/swihauk-grapadora-metalica-modelo-final.png",
+          "price": 15.98,
+          "currency": "USD",
+          "personalRating": 4.6,
+          "totalReviews": 4185,
+          "affiliateUrl": "https://amzn.to/3Tkrq87",
+          "isDemo": false,
+          "badge": {
+            "es": "#1 más vendido",
+            "en": "#1 Best Seller"
+          },
+          "slug": {
+            "es": "grapadora-metalica-de-alta-resistencia-swihauk",
+            "en": "swihauk-heavy-duty-metal-desk-stapler"
+          },
+          "name": {
+            "es": "Grapadora Metálica de Alta Resistencia SwiHauk",
+            "en": "SwiHauk Heavy Duty Metal Desk Stapler"
+          },
+          "rawName": "Metal Stapler Heavy Duty 50 Sheet Capacity with 1750 Staples and Staple Remover, Full Strip Staplers for Desk, No Jam, Non-Slip for Office & Classroom, Black",
+          "shortDescription": {
+            "es": "Grapadora metálica SwiHauk de alta resistencia para escritorio, oficina, escuela o salón de clases. Tiene capacidad para grapar hasta 50 hojas e incluye 1,750 grapas y un removedor de grapas. Su diseño de tira completa, base antideslizante e indicador de grapas bajas ayuda a mantener documentos organizados. También permite fijación temporal y uso para tablones de anuncios.",
+            "en": "SwiHauk heavy-duty metal desk stapler with 50-sheet capacity. Includes 1,750 staples and a staple remover tool. Features full-strip 210 staple capacity, jam-free mechanism, non-slip rubber base, and low-staple indicator for office, desk, or classroom use."
+          },
+          "fullDescription": {
+            "es": "Excelente. Esta grapadora de metal funciona muy bien, incluso para trabajo pesado, y además es ligera para moverla de un lugar a otro.\n\nLa he encontrado práctica para organizar documentos en el escritorio sin tener que hacer demasiada fuerza. Se siente firme al usarla y la base se mantiene estable, algo importante cuando necesitas grapar varias hojas.\n\nTambién me gustó que incluya grapas y removedor de grapas, porque permite empezar a usarla de inmediato. Su diseño negro se ve limpio y profesional en el escritorio.\n\nEs una muy buena opción para oficina, escritorio, escuela o salón de clases. La recomiendo si buscas una grapadora resistente, sencilla de usar y con buena capacidad para documentos.",
+            "en": "This SwiHauk metal stapler is built like a tank! It effortlessly staples through thick stacks of up to 50 sheets of paper without jamming or bending staples.\n\nThe included staple remover and 1,750 staples mean you're ready to work right out of the box. The rubberized base keeps it firmly anchored on the desk. A reliable, high-capacity stapler for home or office!"
+          },
+          "summary": {
+            "es": "Grapadora metálica SwiHauk de alta resistencia para hasta 50 hojas, con 1,750 grapas y removedor de grapas.",
+            "en": "Heavy-duty SwiHauk 50-sheet metal desk stapler kit with 1,750 staples and remover tool."
+          },
+          "recommendedFor": {
+            "es": "Usuarios interesados en oficina y papelería en EE.UU.",
+            "en": "Office workers, teachers, students, and home offices needing a high-capacity jam-free stapler."
+          },
+          "personalReview": {
+            "es": "Excelente. Esta grapadora de metal funciona muy bien, incluso para trabajo pesado, y además es ligera para moverla de un lugar a otro.\n\nLa he encontrado práctica para organizar documentos en el escritorio sin tener que hacer demasiada fuerza. Se siente firme al usarla y la base se mantiene estable, algo importante cuando necesitas grapar varias hojas.\n\nTambién me gustó que incluya grapas y removedor de grapas, porque permite empezar a usarla de inmediato. Su diseño negro se ve limpio y profesional en el escritorio.\n\nEs una muy buena opción para oficina, escritorio, escuela o salón de clases. La recomiendo si buscas una grapadora resistente, sencilla de usar y con buena capacidad para documentos.",
+            "en": "This SwiHauk metal stapler is built like a tank! It effortlessly staples through thick stacks of up to 50 sheets of paper without jamming or bending staples.\n\nThe included staple remover and 1,750 staples mean you're ready to work right out of the box. The rubberized base keeps it firmly anchored on the desk. A reliable, high-capacity stapler for home or office!"
+          },
+          "features": {
+            "es": [
+              "Color: Negro",
+              "Material: Metal",
+              "Capacidad: 50 hojas",
+              "Incluye 1,750 grapas",
+              "Incluye removedor de grapas",
+              "Carga de tira completa de 210 grapas estándar",
+              "Indicador de grapas bajas",
+              "Base de goma antideslizante",
+              "Función de fijación temporal y para tablones de anuncios"
+            ],
+            "en": [
+              "High capacity: Staples up to 50 sheets of paper per press",
+              "Includes 1,750 standard staples + 1 heavy-duty staple remover tool",
+              "Full metal body with durable inner mechanics",
+              "Full-strip capacity holds 210 staples",
+              "Jam-free mechanism with low-staple viewing window",
+              "Non-slip rubber base protects desk surface"
+            ]
+          },
+          "benefits": {
+            "es": [
+              "Funciona bien incluso para trabajo pesado",
+              "Ligera para ser una grapadora metálica",
+              "Incluye grapas y removedor",
+              "Base antideslizante"
+            ],
+            "en": [
+              "Effortlessly handles heavy paper stacks without jamming",
+              "Complete office kit ready to use immediately",
+              "Sturdy durable construction for long-term daily use",
+              "Non-slip grip stays stable on any desk"
+            ]
+          },
+          "imageAlt": {
+            "primary": {
+              "es": "Grapadora Metálica de Alta Resistencia SwiHauk",
+              "en": "SwiHauk Heavy Duty Metal Desk Stapler"
+            },
+            "secondary": {
+              "es": "Grapadora Metálica de Alta Resistencia SwiHauk - Modelo",
+              "en": "SwiHauk Heavy Duty Metal Desk Stapler - Model"
+            }
+          }
+        },
+        {
+          "id": "product-13",
+          "brand": "Amazon Basics",
+          "categoryId": "office-equipment-supplies",
+          "imagePrimary": "/Imagenes/amazon-basics-blocs-notas-producto-final.png",
+          "imageSecondary": "/Imagenes/amazon-basics-blocs-notas-modelo-final.png",
+          "price": 7.98,
+          "currency": "USD",
+          "personalRating": 4.7,
+          "totalReviews": 81856,
+          "affiliateUrl": "https://amzn.to/4gUC9ju",
+          "isDemo": false,
+          "badge": {
+            "es": "#1 más vendido",
+            "en": "#1 Best Seller"
+          },
+          "slug": {
+            "es": "set-de-6-blocs-de-notas-amazon-basics-5x8-in",
+            "en": "amazon-basics-writing-pads-5x8-in-6-pack"
+          },
+          "name": {
+            "es": "Set de 6 Blocs de Notas Amazon Basics (5x8 in)",
+            "en": "Amazon Basics Writing Pads 5x8 in (6-Pack)"
+          },
+          "rawName": "Amazon Basics Narrow Ruled Writing Pads, Perforated, 5 x 8 in, Multicolor, 6-Pack of 50 Sheets",
+          "shortDescription": {
+            "es": "Paquete Amazon Basics de seis blocs de notas con líneas estrechas, tamaño de 5 x 8 pulgadas y 50 hojas por bloc. Incluye colores pastel rosa, orquídea y azul, con hojas perforadas para retirarlas fácilmente. El respaldo de cartón ofrece apoyo al escribir y el margen lateral ayuda a organizar apuntes. Son adecuados para casa, escuela, oficina, listas y notas diarias.",
+            "en": "Amazon Basics 6-pack of narrow-ruled writing pads (5 x 8 inches, 50 sheets per pad). Features pastel pink, orchid, and blue paper with micro-perforated pages for clean tearing, sturdy chipboard backing for writing support, and left-side margins."
+          },
+          "fullDescription": {
+            "es": "Estos blocs de notas Amazon Basics son excelentes y tienen un precio razonable. Compré un set parecido el año pasado en una tienda conocida de artículos de oficina por más dinero, y el papel era de peor calidad.\n\nEl papel de estos blocs es suave, los colores pastel son agradables y las hojas se desprenden fácilmente gracias al borde perforado. Las líneas estrechas ayudan a escribir más notas en cada página y mantener todo organizado.\n\nEl respaldo de cartón es resistente, por lo que resulta cómodo escribir sin una mesa perfecta debajo. Cada bloc incluye 50 hojas, no 30, y el paquete de seis ofrece suficiente cantidad para casa, escuela u oficina.\n\nOfrecen muy buena calidad por el precio. Son mucho mejores que los blocs de marca de tienda que he usado y los volvería a comprar.",
+            "en": "These Amazon Basics pastel writing pads are fantastic value and top quality! The paper is smooth, high-grade, and pleasant to write on with gel pens or ballpoints without bleeding through.\n\nThe pastel colors (pink, orchid, blue) add a fun touch to desk notes, and the micro-perforated tops allow sheets to tear off cleanly without messy frayed edges. The firm cardboard back gives great support when writing away from a desk. Excellent 6-pack!"
+          },
+          "summary": {
+            "es": "Paquete de 6 blocs de notas Amazon Basics de 5 x 8 pulgadas, con líneas estrechas, hojas perforadas y 50 hojas por bloc.",
+            "en": "Amazon Basics 6-pack of 5x8 inch narrow-ruled pastel writing pads with perforated pages and sturdy backing."
+          },
+          "recommendedFor": {
+            "es": "Usuarios interesados en oficina y papelería en EE.UU.",
+            "en": "Students, professionals, writers, and anyone needing compact notepad pads for quick daily notes."
+          },
+          "personalReview": {
+            "es": "Estos blocs de notas Amazon Basics son excelentes y tienen un precio razonable. Compré un set parecido el año pasado en una tienda conocida de artículos de oficina por más dinero, y el papel era de peor calidad.\n\nEl papel de estos blocs es suave, los colores pastel son agradables y las hojas se desprenden fácilmente gracias al borde perforado. Las líneas estrechas ayudan a escribir más notas en cada página y mantener todo organizado.\n\nEl respaldo de cartón es resistente, por lo que resulta cómodo escribir sin una mesa perfecta debajo. Cada bloc incluye 50 hojas, no 30, y el paquete de seis ofrece suficiente cantidad para casa, escuela u oficina.\n\nOfrecen muy buena calidad por el precio. Son mucho mejores que los blocs de marca de tienda que he usado y los volvería a comprar.",
+            "en": "These Amazon Basics pastel writing pads are fantastic value and top quality! The paper is smooth, high-grade, and pleasant to write on with gel pens or ballpoints without bleeding through.\n\nThe pastel colors (pink, orchid, blue) add a fun touch to desk notes, and the micro-perforated tops allow sheets to tear off cleanly without messy frayed edges. The firm cardboard back gives great support when writing away from a desk. Excellent 6-pack!"
+          },
+          "features": {
+            "es": [
+              "Paquete de 6 blocs",
+              "50 hojas por bloc",
+              "300 páginas en total",
+              "Tamaño de hoja: 5 x 8 pulgadas",
+              "Colores pastel: rosa, orquídea y azul",
+              "Líneas estrechas de 9/32 de pulgada",
+              "Hojas perforadas",
+              "Respaldo de cartón resistente",
+              "Margen izquierdo y espacio para título"
+            ],
+            "en": [
+              "Value Pack of 6 Writing Pads (300 total sheets)",
+              "50 sheets per pad (5 x 8 inches compact size)",
+              "Narrow-ruled lines (9/32 inch spacing) for maximum writing space",
+              "Assorted pastel colors: Pink, Orchid, and Blue",
+              "Micro-perforated sheets for clean, easy tearing",
+              "Sturdy 80 pt chipboard backing provides solid writing surface"
+            ]
+          },
+          "benefits": {
+            "es": [
+              "Papel suave",
+              "Colores agradables",
+              "Las hojas se desprenden fácilmente",
+              "Respaldo de cartón resistente",
+              "Buena relación calidad-precio"
+            ],
+            "en": [
+              "High quality smooth paper resists ink bleed",
+              "Micro-perforations tear cleanly every time",
+              "Compact size fits easily into bags, totes, or desk drawers",
+              "Great multi-pack value for home, school, or office"
+            ]
+          },
+          "imageAlt": {
+            "primary": {
+              "es": "Set de 6 Blocs de Notas Amazon Basics (5x8 in)",
+              "en": "Amazon Basics Writing Pads 5x8 in (6-Pack)"
+            },
+            "secondary": {
+              "es": "Set de 6 Blocs de Notas Amazon Basics (5x8 in) - Modelo",
+              "en": "Amazon Basics Writing Pads 5x8 in (6-Pack) - Model"
+            }
+          }
+        },
+        {
+          "id": "product-14",
+          "brand": "ExcelMark",
+          "categoryId": "office-equipment-supplies",
+          "imagePrimary": "/Imagenes/excelmark-sello-personalizado-producto-final.png",
+          "imageSecondary": "/Imagenes/excelmark-sello-personalizado-modelo-final.png",
+          "price": 10.99,
+          "currency": "USD",
+          "personalRating": 4.6,
+          "totalReviews": 82309,
+          "affiliateUrl": "https://amzn.to/4bd9keu",
+          "isDemo": false,
+          "badge": {
+            "es": "#1 más vendido",
+            "en": "#1 Best Seller"
+          },
+          "slug": {
+            "es": "sello-personalizado-autoentintable-excelmark",
+            "en": "excelmark-personalized-self-inking-custom-stamp"
+          },
+          "name": {
+            "es": "Sello Personalizado Autoentintable ExcelMark",
+            "en": "ExcelMark Personalized Self-Inking Custom Stamp"
+          },
+          "rawName": "ExcelMark Custom Stamp – Clear & Crisp Impressions – Personalized Self-Inking Rubber Stamp – Use for Address Stamp and More (Small)",
+          "shortDescription": {
+            "es": "Sello personalizado ExcelMark autoentintable para direcciones, datos de contacto, mensajes breves y organización de documentos. Permite personalizar hasta tres líneas de texto dentro de un área de impresión compacta de 0.5 x 1.5 pulgadas. Ofrece impresiones claras y legibles, con opciones de colores de tinta y estilos de fuente. Es útil para sobres, papelería, negocios pequeños y uso doméstico.",
+            "en": "ExcelMark personalized self-inking custom stamp featuring up to 3 lines of custom text. Perfect for return address stamping, signatures, endorsements, or business labeling. Includes self-inking mechanism with re-inkable or replaceable black ink pad."
+          },
+          "fullDescription": {
+            "es": "Este sello personalizado ExcelMark funciona muy bien y se ve exactamente como lo personalicé. El proceso de elegir el texto y la fuente fue sencillo, y el resultado final coincide con lo solicitado.\n\nLa impresión sale clara, nítida y fácil de leer. La fuente que elegí se imprime con precisión, lo cual es importante para direcciones, datos de contacto o documentos que deben verse profesionales.\n\nTambién me gustó que el sello sea compacto y cómodo de usar. No ocupa mucho espacio en el escritorio y permite marcar varios sobres o papeles de forma rápida.\n\nLa calidad general es muy buena y el mecanismo de autoentintado resulta práctico para el uso diario. Lo recomiendo si buscas un sello personalizado confiable con impresiones limpias y legibles.",
+            "en": "This ExcelMark custom self-inking stamp works like magic! Customizing the text was simple, and the impression quality is crisp, sharp, and perfectly legible every single time.\n\nThe self-inking spring mechanism operates smoothly without ink smudges or mess. It saves so much time when stamping envelopes, invoices, or books. Outstanding quality custom office tool!"
+          },
+          "summary": {
+            "es": "Sello personalizado ExcelMark autoentintable para direcciones, contactos y hasta tres líneas de texto.",
+            "en": "Custom ExcelMark self-inking stamp with up to 3 lines of personalized text for return addresses & documents."
+          },
+          "recommendedFor": {
+            "es": "Usuarios interesados en oficina y papelería en EE.UU.",
+            "en": "Homeowners, small business owners, offices, and anyone wanting quick custom address or document stamping."
+          },
+          "personalReview": {
+            "es": "Este sello personalizado ExcelMark funciona muy bien y se ve exactamente como lo personalicé. El proceso de elegir el texto y la fuente fue sencillo, y el resultado final coincide con lo solicitado.\n\nLa impresión sale clara, nítida y fácil de leer. La fuente que elegí se imprime con precisión, lo cual es importante para direcciones, datos de contacto o documentos que deben verse profesionales.\n\nTambién me gustó que el sello sea compacto y cómodo de usar. No ocupa mucho espacio en el escritorio y permite marcar varios sobres o papeles de forma rápida.\n\nLa calidad general es muy buena y el mecanismo de autoentintado resulta práctico para el uso diario. Lo recomiendo si buscas un sello personalizado confiable con impresiones limpias y legibles.",
+            "en": "This ExcelMark custom self-inking stamp works like magic! Customizing the text was simple, and the impression quality is crisp, sharp, and perfectly legible every single time.\n\nThe self-inking spring mechanism operates smoothly without ink smudges or mess. It saves so much time when stamping envelopes, invoices, or books. Outstanding quality custom office tool!"
+          },
+          "features": {
+            "es": [
+              "Tamaño: Pequeño",
+              "Personalización de hasta 3 líneas de texto",
+              "Área de impresión: 0.5 x 1.5 pulgadas",
+              "Diseño autoentintable",
+              "Almohadilla de tinta de doble cara",
+              "11 colores de tinta disponibles",
+              "17 estilos de fuente disponibles",
+              "Impresión clara y nítida",
+              "Diseño limpio y sin manchas"
+            ],
+            "en": [
+              "Customizable up to 3 lines of personalized text",
+              "Self-inking mechanism re-inks pad automatically before each impression",
+              "Clear base window for precise alignment positioning",
+              "Crisp, clear black ink impressions",
+              "Re-inkable or easily replaceable ink pad",
+              "Impression area: 9/16\" x 1-1/2\""
+            ]
+          },
+          "benefits": {
+            "es": [
+              "Funciona bien",
+              "El diseño coincide con la personalización creada",
+              "Buena calidad",
+              "La fuente se imprime con precisión"
+            ],
+            "en": [
+              "Saves time stamping return addresses and documents",
+              "Sharp, professional non-smudging ink print",
+              "Easy to align accurately",
+              "Long-lasting ink pad provides thousands of impressions"
+            ]
+          },
+          "imageAlt": {
+            "primary": {
+              "es": "Sello Personalizado Autoentintable ExcelMark",
+              "en": "ExcelMark Personalized Self-Inking Custom Stamp"
+            },
+            "secondary": {
+              "es": "Sello Personalizado Autoentintable ExcelMark - Modelo",
+              "en": "ExcelMark Personalized Self-Inking Custom Stamp - Model"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

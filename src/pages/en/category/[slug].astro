@@ -1,0 +1,62 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import ProductCard from '../../../components/ProductCard.astro';
+import Breadcrumbs from '../../../components/Breadcrumbs.astro';
+import { getTranslations } from '../../../utils/getTranslations';
+import productsData from '../../../data/products.json';
+
+export async function getStaticPaths() {
+  return productsData.categories.map((category) => ({
+    params: { slug: category.slug.en },
+    props: { category },
+  }));
+}
+
+const { category } = Astro.props;
+const lang = 'en';
+const t = getTranslations(lang);
+
+const name = category.name[lang] || category.name.en;
+const description = category.description[lang] || category.description.en;
+const seoTitle = category.seo?.title?.[lang] || `${name} | Sasha Store`;
+const seoDescription = category.seo?.description?.[lang] || description;
+const currentPath = `/en/category/${category.slug.en}/`;
+
+const breadcrumbItems = [
+  { label: t.nav.home, url: '/en/' },
+  { label: name },
+];
+---
+
+<BaseLayout
+  title={seoTitle}
+  description={seoDescription}
+  lang={lang}
+  currentPath={currentPath}
+>
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 space-y-8">
+    <Breadcrumbs items={breadcrumbItems} />
+
+    <!-- Category Header -->
+    <div class="p-8 rounded-3xl bg-neutral-50 border border-neutral-200 shadow-soft text-center max-w-3xl mx-auto">
+      <span class="inline-block px-3.5 py-1 rounded-full bg-neutral-900 text-white text-xs font-bold uppercase tracking-wider mb-3">
+        Category
+      </span>
+      <h1 class="text-3xl sm:text-4xl font-serif font-bold text-neutral-900 leading-tight">
+        {name}
+      </h1>
+      <p class="text-xs sm:text-sm text-neutral-600 leading-relaxed mt-2">
+        {description}
+      </p>
+    </div>
+
+    <!-- Centered Products Grid -->
+    <div class="flex flex-wrap justify-center gap-6">
+      {category.products.map((product: any, idx: number) => (
+        <div class="w-full sm:w-[calc(50%-0.75rem)] lg:w-[calc(33.333%-1rem)] xl:w-[calc(25%-1.125rem)] max-w-sm flex">
+          <ProductCard product={product} lang={lang} t={t} index={idx} />
+        </div>
+      ))}
+    </div>
+  </div>
+</BaseLayout>

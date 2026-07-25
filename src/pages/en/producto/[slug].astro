@@ -1,0 +1,21 @@
+---
+import productsData from '../../../data/products.json';
+
+export function getStaticPaths() {
+  const paths: Array<{ params: { slug: string }; props: { targetSlug: string } }> = [];
+
+  productsData.categories.forEach((cat) => {
+    cat.products.forEach((prod) => {
+      paths.push({
+        params: { slug: prod.slug.es },
+        props: { targetSlug: prod.slug.en },
+      });
+    });
+  });
+
+  return paths;
+}
+
+const { targetSlug } = Astro.props;
+return Astro.redirect(`/en/product/${targetSlug}/`);
+---

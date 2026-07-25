@@ -1,0 +1,100 @@
+# Sasha Store - Product Recommendation Catalog & Entity Graph
+
+> Sasha Store is a curated, independent product recommendation storefront specializing in high-rating lifestyle, fitness, beauty, health, and office equipment available on Amazon.com for US shoppers.
+
+## Official Web & Social Channels
+- Website: https://sashastore.com
+- Instagram: https://www.instagram.com/sassha_steele
+- TikTok: https://www.tiktok.com/@sasha_steele.ai
+- Pinterest: https://www.pinterest.com/sofiahonzalezoff
+- Facebook: https://www.facebook.com/sashasteele.official
+
+## Product Catalog & Direct Amazon Affiliate Links
+
+### 1. Fitness Category
+- **BCAN BT2 Rebounder Mini Fitness Trampoline** (Brand: BCAN)
+  - Rating: 4.4 / 5.0 (4,271 Amazon Reviews)
+  - Price: $149.99 USD
+  - Highlights: 40-inch heavy duty frame, 32 elastic cords, 450 lbs capacity, 4-level adjustable handlebar.
+  - Amazon URL: https://amzn.to/4fwcQSm
+
+- **Etekcity Smart Bluetooth Body Weight & Fat Scale** (Brand: Etekcity)
+  - Rating: 4.7 / 5.0 (150,181 Amazon Reviews)
+  - Price: $19.95 USD
+  - Highlights: LED display, Bluetooth sync with VeSync, Apple Health, Fitbit, Google Fit compatibility.
+  - Amazon URL: https://amzn.to/4pxxB4I
+
+- **MERACH Foldable Abdominal Trainer Machine** (Brand: MERACH)
+  - Rating: 4.5 / 5.0 (2,656 Amazon Reviews)
+  - Price: $54.99 USD
+  - Highlights: LCD rep counter, 440 lbs capacity, 5 height settings, knee padding, foldable design.
+  - Amazon URL: https://amzn.to/3Rq2WtG
+
+- **FitBeast Hand Grip & Forearm Strengthener Kit (5-Pack)** (Brand: FitBeast)
+  - Rating: 4.5 / 5.0 (32,400 Amazon Reviews)
+  - Price: $9.89 USD
+  - Highlights: Adjustable resistance, ergonomic grip, finger exerciser, durable stainless steel springs.
+  - Amazon URL: https://amzn.to/4bE8J5A
+
+### 2. Belleza y Cuidado Personal (Beauty & Personal Care)
+- **BIODANCE Bio-Collagen Real Deep Mask (4-Pack)** (Brand: BIODANCE)
+  - Rating: 4.5 / 5.0 (43,793 Amazon Reviews)
+  - Price: $19.00 USD
+  - Highlights: Overnight hydrogel face mask, low molecular weight collagen, hyaluronic acid, niacinamide.
+  - Amazon URL: https://amzn.to/4fuSuJo
+
+- **Boka Fluoride Free Nano-Hydroxyapatite Toothpaste (Ela Mint)** (Brand: Boka)
+  - Rating: 4.5 / 5.0 (58,329 Amazon Reviews)
+  - Price: $11.62 USD
+  - Highlights: Fluoride-free, n-Ha remineralizing toothpaste, SLS-free, ideal for sensitive teeth.
+  - Amazon URL: https://amzn.to/44JTAMs
+
+- **BIODANCE Collagen Peptide Eye Patches (60 Count)** (Brand: BIODANCE)
+  - Rating: 4.6 / 5.0 (2,228 Amazon Reviews)
+  - Price: $23.00 USD
+  - Highlights: Anti-wrinkle under-eye mask, caffeine, collagen peptides, diamond-gel texture.
+  - Amazon URL: https://amzn.to/4b3Dq44
+
+- **CeraVe Skin Renewing Night Cream** (Brand: CeraVe)
+  - Rating: 4.6 / 5.0 (56,741 Amazon Reviews)
+  - Price: $15.44 USD
+  - Highlights: Peptide complex, 3 essential ceramides, hyaluronic acid, fragrance-free facial moisturizer.
+  - Amazon URL: https://amzn.to/3TS9yBF
+
+### 3. Salud y Hogar (Health & Household)
+- **KardiaMobile Personal EKG Heart Monitor (FDA Cleared)** (Brand: KardiaMobile)
+  - Rating: 4.4 / 5.0 (82,882 Amazon Reviews)
+  - Price: $79.00 USD
+  - Highlights: 30-second EKG recording, detects AFib, Bradycardia, Tachycardia, HSA/FSA eligible.
+  - Amazon URL: https://amzn.to/4hr1eCH
+
+- **Amazon Echo Dot Smart Speaker with Alexa (White)** (Brand: Amazon)
+  - Rating: 4.7 / 5.0 (196,343 Amazon Reviews)
+  - Price: $49.99 USD
+  - Highlights: Compact smart speaker, Alexa voice control, dual-band Wi-Fi, 1.7-inch front speaker.
+  - Amazon URL: https://amzn.to/4wrcdB2
+
+- **TrendPlain 16 oz Glass Olive Oil Sprayer & Dispenser** (Brand: TrendPlain)
+  - Rating: 4.6 / 5.0 (43,559 Amazon Reviews)
+  - Price: $7.99 USD
+  - Highlights: 2-in-1 spray & pour dispenser, BPA-free glass, fine mist for air fryers and salads.
+  - Amazon URL: https://amzn.to/4yVcDBl
+
+### 4. Oficina y Papelería (Office Equipment & Supplies)
+- **SwiHauk Heavy Duty Metal Desk Stapler (50 Sheet Capacity)** (Brand: SwiHauk)
+  - Rating: 4.6 / 5.0 (4,185 Amazon Reviews)
+  - Price: $15.98 USD
+  - Highlights: Includes 1,750 staples and remover, non-slip rubber base, jam-free mechanism.
+  - Amazon URL: https://amzn.to/3Tkrq87
+
+- **Amazon Basics Narrow Ruled Writing Pads (6-Pack, 5x8 in)** (Brand: Amazon Basics)
+  - Rating: 4.7 / 5.0 (81,856 Amazon Reviews)
+  - Price: $7.98 USD
+  - Highlights: 50 sheets per pad, pastel colors, perforated edge, sturdy cardboard backing.
+  - Amazon URL: https://amzn.to/4gUC9ju
+
+- **ExcelMark Personalized Self-Inking Custom Rubber Stamp** (Brand: ExcelMark)
+  - Rating: 4.6 / 5.0 (82,309 Amazon Reviews)
+  - Price: $10.99 USD
+  - Highlights: Custom 3 lines text, double-sided ink pad, clear impressions for addresses and documents.
+  - Amazon URL: https://amzn.to/4bd9keu

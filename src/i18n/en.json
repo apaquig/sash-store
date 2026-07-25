@@ -1,0 +1,92 @@
+{
+  "site": {
+    "title": "Sasha Store | Recommended US Amazon Products",
+    "description": "Simple and elegant storefront featuring beauty, travel, and home selections. Transparent reviews and direct Amazon links."
+  },
+  "nav": {
+    "home": "Home",
+    "categories": "Categories",
+    "favorites": "My Favorites",
+    "about": "About",
+    "editorialPolicy": "Criteria",
+    "affiliateDisclosure": "Affiliate Disclosure",
+    "privacy": "Privacy",
+    "openMenu": "Open navigation menu",
+    "closeMenu": "Close navigation menu"
+  },
+  "announcement": {
+    "text": "Sasha Store • Recommended product selection • Direct Amazon links",
+    "tag": "Summer 2026"
+  },
+  "categories": {
+    "title": "Categories",
+    "subtitle": "Explore by category",
+    "viewCategory": "View category"
+  },
+  "products": {
+    "featuredTitle": "Our Products",
+    "featuredSubtitle": "Recommended selection with direct links to Amazon",
+    "demoNoticeTitle": "Demo Content",
+    "demoNoticeText": "Layout prototype. The official link will be enabled soon.",
+    "demoBadge": "Demo",
+    "viewDetails": "View details",
+    "viewOnAmazon": "View on Amazon",
+    "linkPending": "Link pending",
+    "rating": "Rating",
+    "externalLinkNote": "Opens on Amazon.com in a new window",
+    "noProductsFound": "We could not find products matching those criteria.",
+    "resetFilters": "Clear filters"
+  },
+  "search": {
+    "placeholder": "Search product...",
+    "categoryAll": "All Categories",
+    "sortBy": "Sort by:",
+    "sortRating": "Top Rated",
+    "sortAlpha": "Name (A-Z)",
+    "sortRecommended": "Recommended"
+  },
+  "favorites": {
+    "title": "My Favorites",
+    "subtitle": "Products you have saved",
+    "emptyState": "You haven't saved any products to your favorites yet.",
+    "browseCatalog": "View products",
+    "add": "Save to favorites",
+    "remove": "Remove from favorites"
+  },
+  "sections": {
+    "howWeSelectTitle": "How We Select Products",
+    "howWeSelectSubtitle": "Transparency and editorial independence",
+    "howWeSelectText": "We select products based on material quality, practical design, and real buyer reviews in the US.",
+    "benefitsTitle": "Why Trust Our Recommendations?",
+    "benefit1Title": "Independent Selection",
+    "benefit1Text": "Recommendations grounded in quality and aesthetic design.",
+    "benefit2Title": "Direct & Secure Link",
+    "benefit2Text": "Transparent redirection to the official Amazon store.",
+    "benefit3Title": "Full Transparency",
+    "benefit3Text": "We clearly disclose our affiliate partnership at zero extra cost.",
+    "faqTitle": "Frequently Asked Questions",
+    "faqSubtitle": "Quick answers about our store and affiliate links"
+  },
+  "affiliate": {
+    "disclosureTitle": "Amazon Associates Disclosure",
+    "disclosureNotice": "As an Amazon Associate I earn from qualifying purchases. This does not increase the price of your purchase.",
+    "moreInfoLink": "Read affiliate policy"
+  },
+  "footer": {
+    "rights": "All rights reserved.",
+    "amazonDisclaimer": "Amazon and the Amazon logo are trademarks of Amazon.com, Inc. or its affiliates.",
+    "navigation": "Navigation",
+    "legal": "Legal Information",
+    "categories": "Categories"
+  },
+  "language": {
+    "select": "Language",
+    "spanish": "Español",
+    "english": "English"
+  },
+  "notFound": {
+    "title": "Page Not Found",
+    "description": "The page you are looking for does not exist.",
+    "backHome": "Back to Home"
+  }
+}

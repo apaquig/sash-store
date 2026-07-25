@@ -1,0 +1,59 @@
+---
+import type { Language } from '../utils/getTranslations';
+
+interface Props {
+  category: {
+    id: string;
+    slug: { es: string; en: string };
+    name: { es: string; en: string };
+    description: { es: string; en: string };
+    products: any[];
+  };
+  lang: Language;
+  t: any;
+}
+
+const { category, lang, t } = Astro.props;
+
+const slug = category.slug[lang] || category.slug.es;
+const name = category.name[lang] || category.name.es;
+const description = category.description[lang] || category.description.es;
+const productCount = category.products?.length || 0;
+
+const categoryUrl = lang === 'es' ? `/es/categoria/${slug}/` : `/en/category/${slug}/`;
+---
+
+<a
+  href={categoryUrl}
+  class="group relative block p-8 rounded-3xl bg-white border border-neutral-200 hover:border-neutral-900 shadow-soft hover:shadow-hover transition-all duration-300 transform hover:-translate-y-1 overflow-hidden"
+>
+  <div class="relative space-y-4">
+    <!-- Category Header Icon / Badge -->
+    <div class="flex items-center justify-between">
+      <div class="w-12 h-12 rounded-2xl bg-neutral-100 text-neutral-900 flex items-center justify-center font-serif font-bold text-xl group-hover:bg-neutral-900 group-hover:text-white transition-colors duration-300 shadow-xs">
+        {name.substring(0, 1)}
+      </div>
+      <span class="px-3 py-1 rounded-full bg-neutral-100 text-neutral-700 text-xs font-semibold">
+        {productCount} {lang === 'es' ? 'productos' : 'products'}
+      </span>
+    </div>
+
+    <!-- Title & Description -->
+    <div>
+      <h3 class="text-xl font-serif font-bold text-neutral-900 group-hover:text-black transition-colors">
+        {name}
+      </h3>
+      <p class="mt-2 text-xs text-neutral-600 leading-relaxed line-clamp-2">
+        {description}
+      </p>
+    </div>
+
+    <!-- Link Footer -->
+    <div class="pt-2 flex items-center text-xs font-bold text-neutral-900 uppercase tracking-wider">
+      <span>{t.categories.viewCategory}</span>
+      <svg class="w-4 h-4 ml-1 transform group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+      </svg>
+    </div>
+  </div>
+</a>

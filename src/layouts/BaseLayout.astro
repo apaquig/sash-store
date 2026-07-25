@@ -1,0 +1,100 @@
+---
+import type { Language } from '../utils/getTranslations';
+import { getTranslations } from '../utils/getTranslations';
+import { generateSEOMetadata } from '../utils/seo';
+import { getWebsiteSchema, getOrganizationSchema } from '../utils/structuredData';
+import Header from '../components/Header.astro';
+import MobileMenu from '../components/MobileMenu.astro';
+import Footer from '../components/Footer.astro';
+import productsData from '../data/products.json';
+import '../styles/global.css';
+
+interface Props {
+  title: string;
+  description: string;
+  lang: Language;
+  currentPath: string;
+  image?: string;
+  structuredDataJson?: any;
+}
+
+const { title, description, lang, currentPath, image, structuredDataJson } = Astro.props;
+
+const t = getTranslations(lang);
+const seo = generateSEOMetadata({ title, description, lang, canonicalUrl: currentPath, image });
+const categories = productsData.categories;
+
+const websiteSchema = getWebsiteSchema(lang);
+const orgSchema = getOrganizationSchema();
+---
+
+<!DOCTYPE html>
+<html lang={lang === 'es' ? 'es-US' : 'en-US'} class="scroll-smooth">
+  <head>
+    <!-- Google tag (gtag.js) - GA4 -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZGFLZF7XBF"></script>
+    <script is:inline>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-ZGFLZF7XBF');
+    </script>
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="apple-touch-icon" href="/favicon.svg" />
+    <meta name="generator" content={Astro.generator} />
+
+    <!-- Technical SEO Meta Tags -->
+    <title>{seo.title}</title>
+    <meta name="description" content={seo.description} />
+    <link rel="canonical" href={seo.canonicalUrl} />
+
+    <!-- Hreflang Tags for Multi-language & GEO -->
+    {seo.alternateLangs.map((h) => (
+      <link rel="alternate" hreflang={h.lang} href={h.href} />
+    ))}
+
+    <!-- OpenGraph & Social Cards -->
+    <meta property="og:title" content={seo.title} />
+    <meta property="og:description" content={seo.description} />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content={seo.canonicalUrl} />
+    <meta property="og:image" content={seo.image} />
+    <meta property="og:locale" content={lang === 'es' ? 'es_US' : 'en_US'} />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={seo.title} />
+    <meta name="twitter:description" content={seo.description} />
+    <meta name="twitter:image" content={seo.image} />
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json" set:html={JSON.stringify(websiteSchema)} />
+    <script type="application/ld+json" set:html={JSON.stringify(orgSchema)} />
+    {structuredDataJson && (
+      <script type="application/ld+json" set:html={JSON.stringify(structuredDataJson)} />
+    )}
+
+    <!-- Font preconnect -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Playfair+Display:ital,wght@0,600;0,700;0,800;0,900;1,600&display=swap" rel="stylesheet" />
+  </head>
+  <body class="min-h-screen flex flex-col bg-white text-neutral-900 font-sans antialiased selection:bg-orange-500 selection:text-white">
+    <!-- Header & Navigation -->
+    <Header lang={lang} currentPath={currentPath} t={t} />
+
+    <!-- Mobile Drawer Navigation -->
+    <MobileMenu lang={lang} currentPath={currentPath} categories={categories} t={t} />
+
+    <!-- Main Content Area -->
+    <main class="flex-1">
+      <slot />
+    </main>
+
+    <!-- Footer -->
+    <Footer lang={lang} categories={categories} t={t} />
+  </body>
+</html>

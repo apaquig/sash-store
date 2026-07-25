@@ -1,0 +1,123 @@
+---
+import type { Language } from '../utils/getTranslations';
+
+interface Props {
+  url: string;
+  isDemo?: boolean;
+  lang?: Language;
+  buttonText?: string;
+  className?: string;
+  variant?: 'primary' | 'badge' | 'card' | 'hero';
+  effectIndex?: number;
+}
+
+const {
+  url,
+  isDemo = false,
+  lang = 'es',
+  buttonText,
+  className,
+  variant = 'primary',
+  effectIndex,
+} = Astro.props;
+
+const label = buttonText || (lang === 'es' ? 'Ver en Amazon' : 'View on Amazon');
+const pendingLabel = lang === 'es' ? 'Enlace pendiente' : 'Link pending';
+
+// Base style
+const baseStyles = 'group relative inline-flex items-center justify-center space-x-2 text-white font-extrabold shadow-md transition-all duration-300 overflow-hidden';
+
+// 4 Distinct Effects for Grid Items
+const effectStyles = [
+  // Effect 0: Shimmer Beam & Orange-Amber Gradient
+  {
+    btn: 'bg-gradient-to-r from-orange-500 via-amber-500 to-orange-600 hover:from-orange-600 hover:to-amber-600 hover:scale-[1.04] hover:shadow-orange-500/40 shadow-md',
+    icon: 'transform group-hover:scale-125 transition-transform duration-300',
+    shimmer: true,
+  },
+  // Effect 1: Pulsing Glow Aura & Amber-Red Flame
+  {
+    btn: 'bg-gradient-to-r from-amber-500 via-orange-500 to-red-500 hover:from-orange-500 hover:to-red-600 hover:-translate-y-1 hover:shadow-amber-500/50 shadow-md animate-pulse-glow',
+    icon: 'group-hover:animate-bounce-subtle',
+    shimmer: false,
+  },
+  // Effect 2: Cart Wiggle & 3D Pop Lift
+  {
+    btn: 'bg-gradient-to-r from-orange-600 via-amber-500 to-yellow-500 hover:from-orange-500 hover:to-amber-600 hover:scale-[1.04] ring-2 ring-orange-400/40 hover:ring-orange-500 shadow-md',
+    icon: 'group-hover:animate-wiggle',
+    shimmer: true,
+  },
+  // Effect 3: Flame Pulse & Tilt Rotate
+  {
+    btn: 'bg-gradient-to-r from-red-500 via-orange-500 to-amber-500 hover:from-orange-600 hover:to-amber-500 hover:-translate-y-1 hover:shadow-red-500/40 shadow-md animate-pulse-glow',
+    icon: 'transform group-hover:-rotate-12 group-hover:scale-125 transition-transform duration-300',
+    shimmer: true,
+  },
+];
+
+let activeBtnStyle = '';
+let activeIconStyle = '';
+let hasShimmer = true;
+
+if (typeof effectIndex === 'number') {
+  const eff = effectStyles[Math.abs(effectIndex) % 4];
+  activeBtnStyle = eff.btn;
+  activeIconStyle = eff.icon;
+  hasShimmer = eff.shimmer;
+} else if (variant === 'badge') {
+  activeBtnStyle = 'bg-gradient-to-r from-orange-500 via-amber-500 to-orange-600 hover:from-orange-600 hover:to-amber-600 py-1 px-3.5 rounded-full text-xs animate-pulse-glow hover:scale-105';
+  activeIconStyle = 'transform group-hover:scale-110 transition-transform duration-300';
+  hasShimmer = true;
+} else if (variant === 'hero') {
+  activeBtnStyle = 'bg-gradient-to-r from-orange-600 via-amber-500 to-orange-500 hover:from-orange-500 hover:to-amber-600 w-full py-4 px-6 rounded-2xl text-sm hover:scale-[1.02] active:scale-[0.98] shadow-lg hover:shadow-orange-500/40 ring-2 ring-orange-400/50';
+  activeIconStyle = 'group-hover:animate-bounce-subtle';
+  hasShimmer = true;
+} else {
+  const eff = effectStyles[0];
+  activeBtnStyle = eff.btn;
+  activeIconStyle = eff.icon;
+  hasShimmer = eff.shimmer;
+}
+
+const defaultShape = variant === 'card' ? 'w-full py-2.5 px-4 rounded-xl text-xs' : 'py-3 px-4 rounded-xl text-xs';
+const finalClassName = className ? `${baseStyles} ${activeBtnStyle} ${className}` : `${baseStyles} ${activeBtnStyle} ${defaultShape}`;
+---
+
+{
+  isDemo ? (
+    <button
+      type="button"
+      disabled
+      class={`inline-flex items-center justify-center space-x-2 bg-neutral-200 text-neutral-500 cursor-not-allowed border border-neutral-300 ${className || 'py-2 px-3 text-xs rounded-xl'}`}
+      title={lang === 'es' ? 'Contenido de demostración. Enlace de afiliado pendiente de activar.' : 'Demo content. Affiliate link pending activation.'}
+    >
+      <svg class="w-4 h-4 text-neutral-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"></path>
+      </svg>
+      <span>{pendingLabel}</span>
+    </button>
+  ) : (
+    <a
+      href={url}
+      target="_blank"
+      rel="noopener noreferrer sponsored"
+      class={finalClassName}
+      aria-label={`${label} (Abre Amazon.com en una nueva ventana / Opens on Amazon)`}
+    >
+      <!-- Sliding Shimmer Light Effect (Conditional) -->
+      {hasShimmer && (
+        <span class="absolute inset-0 w-1/2 h-full bg-gradient-to-r from-transparent via-white/40 to-transparent -skew-x-12 animate-shimmer pointer-events-none"></span>
+      )}
+
+      <!-- Single Classic Shopping Cart Icon with Unique Motion -->
+      <svg
+        class={`w-4 h-4 fill-current shrink-0 text-white relative z-10 ${activeIconStyle}`}
+        viewBox="0 0 24 24"
+      >
+        <path d="M7 18c-1.1 0-1.99.9-1.99 2S5.9 22 7 22s2-.9 2-2-.9-2-2-2zM1 2v2h2l3.6 7.59-1.35 2.45c-.16.28-.25.61-.25.96 0 1.1.9 2 2 2h12v-2H7.42c-.14 0-.25-.11-.25-.25l.03-.12.9-1.63h7.45c.75 0 1.41-.41 1.75-1.03l3.58-6.49c.08-.14.12-.31.12-.48 0-.55-.45-1-1-1H5.21l-.94-2H1zm16 16c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2 2-.9 2-2-.9-2-2-2z"/>
+      </svg>
+      
+      <span class="relative z-10">{label}</span>
+    </a>
+  )
+}

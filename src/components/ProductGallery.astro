@@ -1,0 +1,107 @@
+---
+import type { Language } from '../utils/getTranslations';
+import { getImagePaths } from '../utils/getImagePaths';
+import NoImagePlaceholder from './NoImagePlaceholder.astro';
+
+interface Props {
+  imageNumber?: number;
+  imagePrimary?: string;
+  imageSecondary?: string;
+  imageAlt: any;
+  lang: Language;
+}
+
+const { imageNumber, imagePrimary, imageSecondary, imageAlt, lang } = Astro.props;
+
+const fallback = '/src/images/no-image.svg';
+const images = imageNumber ? getImagePaths(imageNumber) : { primary: '', secondary: '', fallback };
+
+const primarySrc = imagePrimary || images.primary || fallback;
+const secondarySrc = imageSecondary || images.secondary || primarySrc;
+
+const primaryAlt = imageAlt?.primary?.[lang] || 'Primary product image';
+const secondaryAlt = imageAlt?.secondary?.[lang] || 'Secondary product image';
+
+const hasPrimary = Boolean(primarySrc && primarySrc !== fallback);
+const hasSecondary = Boolean(secondarySrc && secondarySrc !== fallback);
+---
+
+<div class="space-y-4" id="gallery-container">
+  <!-- Main Display Window -->
+  <div class="relative w-full aspect-square bg-neutral-50 border border-neutral-200 rounded-3xl overflow-hidden p-4 flex items-center justify-center shadow-soft">
+    {hasPrimary ? (
+      <img
+        id="main-gallery-image"
+        src={primarySrc}
+        alt={primaryAlt}
+        class="w-full h-full object-contain transition-opacity duration-300"
+        width="600"
+        height="600"
+      />
+    ) : (
+      <NoImagePlaceholder lang={lang} altText={primaryAlt} />
+    )}
+  </div>
+
+  <!-- Thumbnails Row -->
+  <div class="grid grid-cols-2 gap-4">
+    <!-- Thumbnail 1 -->
+    <button
+      type="button"
+      class="gallery-thumb active relative w-full aspect-square bg-white border-2 border-neutral-900 rounded-2xl p-2 overflow-hidden focus:outline-none focus:ring-2 focus:ring-neutral-900 transition-all shadow-xs"
+      data-src={hasPrimary ? primarySrc : fallback}
+      data-alt={primaryAlt}
+      aria-label="Ver imagen principal"
+    >
+      {hasPrimary ? (
+        <img src={primarySrc} alt={primaryAlt} class="w-full h-full object-contain" width="100" height="100" />
+      ) : (
+        <NoImagePlaceholder lang={lang} className="w-full h-full text-[10px]" />
+      )}
+    </button>
+
+    <!-- Thumbnail 2 -->
+    <button
+      type="button"
+      class="gallery-thumb relative w-full aspect-square bg-white border-2 border-neutral-200 hover:border-neutral-400 rounded-2xl p-2 overflow-hidden focus:outline-none focus:ring-2 focus:ring-neutral-900 transition-all shadow-xs"
+      data-src={hasSecondary ? secondarySrc : fallback}
+      data-alt={secondaryAlt}
+      aria-label="Ver segunda imagen"
+    >
+      {hasSecondary ? (
+        <img src={secondarySrc} alt={secondaryAlt} class="w-full h-full object-contain" width="100" height="100" />
+      ) : (
+        <NoImagePlaceholder lang={lang} className="w-full h-full text-[10px]" />
+      )}
+    </button>
+  </div>
+</div>
+
+<script>
+  const mainImage = document.getElementById('main-gallery-image') as HTMLImageElement;
+  const thumbs = document.querySelectorAll('.gallery-thumb');
+
+  thumbs.forEach((thumb) => {
+    thumb.addEventListener('click', () => {
+      const src = thumb.getAttribute('data-src');
+      const alt = thumb.getAttribute('data-alt');
+
+      if (mainImage && src) {
+        mainImage.style.opacity = '0.3';
+        setTimeout(() => {
+          mainImage.src = src;
+          if (alt) mainImage.alt = alt;
+          mainImage.style.opacity = '1';
+        }, 150);
+      }
+
+      thumbs.forEach((t) => {
+        t.classList.remove('border-neutral-900', 'active');
+        t.classList.add('border-neutral-200');
+      });
+
+      thumb.classList.remove('border-neutral-200');
+      thumb.classList.add('border-neutral-900', 'active');
+    });
+  });
+</script>

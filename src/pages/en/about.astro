@@ -1,0 +1,29 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import AmbassadorProfile from '../../components/AmbassadorProfile.astro';
+import { getTranslations } from '../../utils/getTranslations';
+
+const lang = 'en';
+const t = getTranslations(lang);
+const currentPath = '/en/about/';
+
+const breadcrumbItems = [
+  { label: t.nav.home, url: '/en/' },
+  { label: t.nav.about },
+];
+---
+
+<BaseLayout
+  title="About Sasha Store | Our Ambassador"
+  description="Meet Sasha Steele, official brand ambassador of Sasha Store, and discover our editorial process for curating top Amazon products for US shoppers."
+  lang={lang}
+  currentPath={currentPath}
+>
+  <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-8 space-y-10">
+    <Breadcrumbs items={breadcrumbItems} />
+
+    <!-- Ambassador Section -->
+    <AmbassadorProfile lang={lang} />
+  </div>
+</BaseLayout>

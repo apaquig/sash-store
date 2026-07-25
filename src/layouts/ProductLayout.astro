@@ -1,0 +1,53 @@
+---
+import type { Language } from '../utils/getTranslations';
+import { getTranslations } from '../utils/getTranslations';
+import { getProductSchema, getBreadcrumbSchema } from '../utils/structuredData';
+import BaseLayout from './BaseLayout.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+
+interface Props {
+  product: any;
+  category: any;
+  lang: Language;
+  currentPath: string;
+}
+
+const { product, category, lang, currentPath } = Astro.props;
+const t = getTranslations(lang);
+
+const productName = product.name[lang] || product.name.es;
+const categoryName = category.name[lang] || category.name.es;
+const categorySlug = category.slug[lang] || category.slug.es;
+
+const seoTitle = product.seo?.title?.[lang] || `${productName} | Sasha Store`;
+const seoDescription = product.seo?.description?.[lang] || product.shortDescription[lang] || product.shortDescription.es;
+
+const base = `/${lang}`;
+const categoryUrl = lang === 'es' ? `${base}/categoria/${categorySlug}/` : `${base}/category/${categorySlug}/`;
+
+const breadcrumbItems = [
+  { label: t.nav.home, url: `${base}/` },
+  { label: categoryName, url: categoryUrl },
+  { label: productName },
+];
+
+const productSchema = getProductSchema(product, lang);
+const breadcrumbSchema = getBreadcrumbSchema([
+  { name: t.nav.home, url: `${base}/` },
+  { name: categoryName, url: categoryUrl },
+  { name: productName, url: currentPath },
+]);
+---
+
+<BaseLayout
+  title={seoTitle}
+  description={seoDescription}
+  lang={lang}
+  currentPath={currentPath}
+  structuredDataJson={[productSchema, breadcrumbSchema]}
+>
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
+    <Breadcrumbs items={breadcrumbItems} />
+    <slot />
+  </div>
+</BaseLayout>

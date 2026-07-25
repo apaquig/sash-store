@@ -1,0 +1,54 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import ProductCard from '../../components/ProductCard.astro';
+import ProductSearch from '../../components/ProductSearch.astro';
+import { getTranslations } from '../../utils/getTranslations';
+import productsData from '../../data/products.json';
+
+const lang = 'es';
+const t = getTranslations(lang);
+const currentPath = '/es/';
+
+const categories = productsData.categories;
+// Sort all products by highest rating descending
+const allProducts = categories
+  .flatMap((cat) => cat.products)
+  .sort((a: any, b: any) => (b.personalRating || 0) - (a.personalRating || 0));
+---
+
+<BaseLayout
+  title={t.site.title}
+  description={t.site.description}
+  lang={lang}
+  currentPath={currentPath}
+>
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 space-y-6">
+    
+    <!-- Title Only -->
+    <div class="text-center max-w-2xl mx-auto pt-2 pb-1">
+      <h1 class="text-4xl sm:text-5xl font-serif font-black text-neutral-950 tracking-tight uppercase">
+        SASHA<span class="text-orange-500 font-serif font-light ml-2">STORE</span>
+      </h1>
+    </div>
+
+    <!-- Buscador y filtro sencillo -->
+    <ProductSearch lang={lang} t={t} categories={categories} />
+
+    <!-- Grid de productos centrado (Ordenados por mayor calificación) -->
+    <div class="flex flex-wrap justify-center gap-6">
+      {allProducts.map((product, idx) => (
+        <div
+          class="w-full sm:w-[calc(50%-0.75rem)] lg:w-[calc(33.333%-1rem)] xl:w-[calc(25%-1.125rem)] max-w-sm flex"
+          data-product-wrapper
+          data-product-id={product.id}
+          data-category={product.categoryId}
+          data-rating={product.personalRating}
+          data-name={(product.name[lang] || product.name.es).toLowerCase()}
+        >
+          <ProductCard product={product} lang={lang} t={t} index={idx} />
+        </div>
+      ))}
+    </div>
+
+  </div>
+</BaseLayout>

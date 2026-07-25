@@ -18,3 +18,6 @@ yarn-error.log*
 
 # Astro telemetry / cache
 .astro/
+
+# Local SSH key
+.ssh_sashstore*

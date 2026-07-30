@@ -62,7 +62,7 @@ const badgeText = product.badge?.[lang] || (lang === 'es' ? '#1 más vendido' : 
         class="w-full h-full object-cover min-w-full min-h-full transition-transform duration-500 group-hover:scale-105"
       />
     ) : (
-      <NoImagePlaceholder alt={name} />
+      <NoImagePlaceholder altText={name} />
     )}
 
     <!-- Amazon Signature #1 Best Seller Badge -->
@@ -106,7 +106,7 @@ const badgeText = product.badge?.[lang] || (lang === 'es' ? '#1 más vendido' : 
     <div class="pt-3 border-t border-neutral-100 space-y-3 mt-auto">
       
       <!-- Price Display -->
-      {product.price > 0 && (
+      {product.price !== undefined && product.price > 0 && (
         <div class="flex items-baseline space-x-1.5">
           <span class="text-xl font-serif font-black text-neutral-950">${product.price.toFixed(2)}</span>
           <span class="text-[10px] text-neutral-500 font-bold uppercase">{product.currency || 'USD'}</span>

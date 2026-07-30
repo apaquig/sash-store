@@ -6,7 +6,7 @@ export function getWebsiteSchema(lang: Language) {
     '@type': 'WebSite',
     name: 'Sasha Store',
     url: `https://sashastore.com/${lang}/`,
-    inLanguage: lang === 'es' ? 'es-US' : lang === 'pt' ? 'pt-BR' : 'en-US',
+    inLanguage: lang === 'es' ? 'es-US' : 'en-US',
     potentialAction: {
       '@type': 'SearchAction',
       target: `https://sashastore.com/${lang}/?q={search_term_string}`,

@@ -19,8 +19,13 @@ const productName = product.name[lang] || product.name.es;
 const categoryName = category.name[lang] || category.name.es;
 const categorySlug = category.slug[lang] || category.slug.es;
 
-const seoTitle = product.seo?.title?.[lang] || `${productName} | Sasha Store`;
-const seoDescription = product.seo?.description?.[lang] || product.shortDescription[lang] || product.shortDescription.es;
+const seoTitle = lang === 'es' && product.seo_geo?.seo_google?.titulo_seo
+  ? product.seo_geo.seo_google.titulo_seo
+  : (product.seo?.title?.[lang] || `${productName} | Sasha Store`);
+
+const seoDescription = lang === 'es' && product.seo_geo?.seo_google?.meta_descripcion
+  ? product.seo_geo.seo_google.meta_descripcion
+  : (product.seo?.description?.[lang] || product.shortDescription[lang] || product.shortDescription.es);
 
 const base = `/${lang}`;
 const categoryUrl = lang === 'es' ? `${base}/categoria/${categorySlug}/` : `${base}/category/${categorySlug}/`;

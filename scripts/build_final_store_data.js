@@ -156,8 +156,8 @@ rawData.forEach((item, index) => {
     affiliateUrl: p.url_afiliado || '#',
     isDemo: false,
     badge: {
-      es: "Tendencia",
-      en: "Trending"
+      es: "Más Vendido",
+      en: "Best Seller"
     },
     slug: {
       es: slugEs,

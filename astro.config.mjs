@@ -28,7 +28,6 @@ export default defineConfig({
         display: 'standalone',
       },
       workbox: {
-        navigateFallback: '/404',
         globPatterns: ['**/*.{css,js,html,svg,png,ico,txt,webp}'],
       }
     }),

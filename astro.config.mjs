@@ -1,6 +1,7 @@
 import { defineConfig } from 'astro/config';
 import tailwind from '@astrojs/tailwind';
 import sitemap from '@astrojs/sitemap';
+import AstroPWA from '@vite-pwa/astro';
 
 export default defineConfig({
   site: 'https://sashasteele.shop',
@@ -16,6 +17,20 @@ export default defineConfig({
           en: 'en-US',
         },
       },
+    }),
+    AstroPWA({
+      registerType: 'autoUpdate',
+      manifest: {
+        name: 'Sasha Steele Shop',
+        short_name: 'SashaShop',
+        theme_color: '#ffffff',
+        background_color: '#ffffff',
+        display: 'standalone',
+      },
+      workbox: {
+        navigateFallback: '/404',
+        globPatterns: ['**/*.{css,js,html,svg,png,ico,txt,webp}'],
+      }
     }),
   ],
   i18n: {

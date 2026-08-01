@@ -16,8 +16,6 @@ const baseUrl = import.meta.env.BASE_URL;
           for(let registration of registrations) {
             registration.unregister();
           }
-          // Force a reload to clear SW interception if it was stuck
-          if (registrations.length > 0) window.location.reload();
         });
       }
     </script>

@@ -130,7 +130,7 @@ const relatedProducts = category.products.filter((p: any) => p.id !== product.id
               <ul class="space-y-1.5 text-xs text-neutral-800">
                 {features.map((item: string) => (
                   <li class="flex items-start space-x-2">
-                    <span class="text-orange-500 font-bold text-sm leading-none">•</span>
+                    <span class="text-orange-500 font-bold text-sm leading-none">&bull;</span>
                     <span class="leading-relaxed font-medium">{item}</span>
                   </li>
                 ))}
@@ -150,7 +150,7 @@ const relatedProducts = category.products.filter((p: any) => p.id !== product.id
               <ul class="space-y-1.5 text-xs text-neutral-800">
                 {benefits.map((item: string) => (
                   <li class="flex items-start space-x-2">
-                    <span class="text-emerald-600 font-bold text-sm leading-none">✓</span>
+                    <span class="text-emerald-600 font-bold text-sm leading-none">&#10003;</span>
                     <span class="leading-relaxed font-medium">{item}</span>
                   </li>
                 ))}

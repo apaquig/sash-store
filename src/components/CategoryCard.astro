@@ -41,7 +41,7 @@ const categoryUrl = lang === 'es' ? `/es/categoria/${slug}/` : `/en/category/${s
     <!-- Title & Description -->
     <div>
       <h3 class="text-xl font-serif font-bold text-neutral-900 group-hover:text-black transition-colors">
-        {name}
+        <Fragment set:html={name.replace('&', `<span style="font-family: Georgia, 'Times New Roman', serif;">&amp;</span>`)} />
       </h3>
       <p class="mt-2 text-xs text-neutral-600 leading-relaxed line-clamp-2">
         {description}

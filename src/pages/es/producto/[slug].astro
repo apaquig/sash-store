@@ -288,7 +288,7 @@ const relatedProducts = category.products.filter((p: any) => p.id !== product.id
     {relatedProducts.length > 0 && (
       <div class="space-y-6 pt-8 border-t border-neutral-200">
         <h2 class="text-2xl font-serif font-bold text-neutral-900">
-          Productos Relacionados en {category.name.es}
+          Productos Relacionados en <Fragment set:html={category.name.es.replace('&', `<span style="font-family: Georgia, 'Times New Roman', serif;">&amp;</span>`)} />
         </h2>
         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {relatedProducts.map((rel: any) => (

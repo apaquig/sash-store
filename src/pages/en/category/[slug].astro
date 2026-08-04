@@ -43,7 +43,7 @@ const breadcrumbItems = [
         Category
       </span>
       <h1 class="text-3xl sm:text-4xl font-serif font-bold text-neutral-900 leading-tight">
-        {name}
+        <Fragment set:html={name.replace('&', `<span style="font-family: Georgia, 'Times New Roman', serif;">&amp;</span>`)} />
       </h1>
       <p class="text-xs sm:text-sm text-neutral-600 leading-relaxed mt-2">
         {description}

@@ -1152,15 +1152,15 @@
           "categoryId": "belleza-y-cuidado-personal",
           "imagePrimary": "/Imagenes/biodance-mascarilla-colageno-producto-16-unidades.png",
           "imageSecondary": "/Imagenes/biodance-mascarilla-colageno-modelo-16-unidades.png",
-          "price": 62,
+          "price": 52.70,
           "currency": "USD",
           "personalRating": 4.5,
-          "totalReviews": 44108,
+          "totalReviews": 44592,
           "affiliateUrl": "https://amzn.to/4yIcVv9",
           "isDemo": false,
           "badge": {
-            "es": "Más Vendido",
-            "en": "Best Seller"
+            "es": "Oferta Relámpago",
+            "en": "Flash Sale"
           },
           "slug": {
             "es": "mascarilla-de-colageno-nocturna-biodance-bio-collagen",

@@ -5,9 +5,15 @@
 @tailwind utilities;
 
 @layer base {
+  @font-face {
+    font-family: 'AestheticAmpersand';
+    src: local('Georgia'), local('Times New Roman'), local('Baskerville'), local('Times');
+    unicode-range: U+0026;
+  }
+
   html {
     scroll-behavior: smooth;
-    font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
+    font-family: 'AestheticAmpersand', 'Plus Jakarta Sans', system-ui, sans-serif;
     color: #18181b;
     background-color: #ffffff;
     -webkit-font-smoothing: antialiased;

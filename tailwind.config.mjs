@@ -34,8 +34,8 @@ export default {
         },
       },
       fontFamily: {
-        serif: ['Playfair Display', 'Cormorant Garamond', 'Georgia', 'serif'],
-        sans: ['Plus Jakarta Sans', 'Outfit', 'Inter', 'system-ui', 'sans-serif'],
+        serif: ['AestheticAmpersand', 'Playfair Display', 'Cormorant Garamond', 'Georgia', 'serif'],
+        sans: ['AestheticAmpersand', 'Plus Jakarta Sans', 'Outfit', 'Inter', 'system-ui', 'sans-serif'],
       },
       boxShadow: {
         soft: '0 2px 15px -3px rgba(0, 0, 0, 0.05)',
